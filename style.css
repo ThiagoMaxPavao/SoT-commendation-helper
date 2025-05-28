@@ -1,0 +1,10 @@
+.commendation-rewards {
+  font-size: 0.9em;
+  color: #FFD700;
+  margin-top: 4px;
+}
+.commendation-rewards a {
+  color: #FFD700;
+  text-decoration: none;
+  margin-left: 5px;
+}
