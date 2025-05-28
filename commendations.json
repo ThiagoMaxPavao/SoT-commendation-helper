@@ -21,7 +21,7 @@
   },
   {
     "commendation": "Sailor of the Gold Horizon",
-    "rewards": "Rewards the Sailor of the Gold Horizon Title.\n Unlocks Gold Hoarders Speaking Trumpet, Spyglass and Tankard for purchase.",
+    "rewards": "Rewards the Sailor of the Gold Horizon Title. Unlocks Gold Hoarders Speaking Trumpet, Spyglass and Tankard for purchase.",
     "links": [
       {
         "text": "Sailor of the Gold Horizon",
@@ -113,7 +113,7 @@
   },
   {
     "commendation": "Hoarder of Barnacled Gold",
-    "rewards": "Rewards the Hoarder of Barnacled Gold Title.\n Unlocks The Silent Barnacle Set, Bristling Barnacle Set, Beard, Dipped Hair, and Tagged Hair of the Wailing Barnacle for purchase.",
+    "rewards": "Rewards the Hoarder of Barnacled Gold Title. Unlocks The Silent Barnacle Set, Bristling Barnacle Set, Beard, Dipped Hair, and Tagged Hair of the Wailing Barnacle for purchase.",
     "links": [
       {
         "text": "Hoarder of Barnacled Gold",
@@ -143,7 +143,7 @@
   },
   {
     "commendation": "Hoarder of Lost Artefacts",
-    "rewards": "Rewards the Hoarder of Lost Artefacts Title.\n Unlocks Gold Leaf Set for purchase.",
+    "rewards": "Rewards the Hoarder of Lost Artefacts Title. Unlocks Gold Leaf Set for purchase.",
     "links": [
       {
         "text": "Hoarder of Lost Artefacts",
@@ -241,7 +241,7 @@
   },
   {
     "commendation": "Seeker of Ancient Vaults",
-    "rewards": "Rewards the Seeker of Ancient Vaults Title.\n Unlocks the Ancient Vault Sails and the Gold Hoarders Blunderbuss, Cutlass, Pistol and Eye of Reach for purchase.",
+    "rewards": "Rewards the Seeker of Ancient Vaults Title. Unlocks the Ancient Vault Sails and the  Gold Hoarders Blunderbuss, Cutlass, Pistol and Eye of Reach for purchase.",
     "links": [
       {
         "text": "Seeker of Ancient Vaults",
@@ -271,7 +271,7 @@
   },
   {
     "commendation": "Hoarder of Ancient Tributes",
-    "rewards": "Rewards the Hoarder of Ancient Tributes Title.\n Unlocks the Ancient Tribute Sails for purchase.",
+    "rewards": "Rewards the Hoarder of Ancient Tributes Title. Unlocks the Ancient Tribute Sails for purchase.",
     "links": [
       {
         "text": "Hoarder of Ancient Tributes",
@@ -305,7 +305,7 @@
   },
   {
     "commendation": "Sailor of the Whispering Bones",
-    "rewards": "Rewards the Sailor of the Whispering Bones Title.\n Unlocks Order of Souls Bucket for purchase.",
+    "rewards": "Rewards the Sailor of the Whispering Bones Title. Unlocks Order of Souls Bucket for purchase.",
     "links": [
       {
         "text": "Sailor of the Whispering Bones",
@@ -319,7 +319,7 @@
   },
   {
     "commendation": "Seeker of Lost Souls",
-    "rewards": "Previously rewarded the Seeker of Lost Souls Title\nPreviously unlocked the Order of Souls Blunderbuss, Cutlass, Pistol and Eye of Reach for purchase.",
+    "rewards": "Previously rewarded the Seeker of Lost Souls Title  Previously unlocked the Order of Souls Blunderbuss, Cutlass, Pistol and Eye of Reach for purchase.",
     "links": [
       {
         "text": "Seeker of Lost Souls",
@@ -395,7 +395,7 @@
   },
   {
     "commendation": "Hunter of Cursed Captains",
-    "rewards": "Rewards the Hunter of Cursed Captains Title.\n Unlocks the Nightfall Hunter Belt, Boots and Gloves for purchase at Grade I, the Nightfall Hunter Trousers, Shirt and Eyepatch for purchase at Grade II, the Nightfall Hunter Pegleg and Hook for purchase at Grade III, and the Nightfall Hunter Dress, Jacket, and Hat for purchase at Grade IV.",
+    "rewards": "Rewards the Hunter of Cursed Captains Title. Unlocks the Nightfall Hunter Belt, Boots and Gloves for purchase at Grade I, the Nightfall Hunter Trousers, Shirt and Eyepatch for purchase at Grade II, the Nightfall Hunter Pegleg and Hook for purchase at Grade III, and the Nightfall Hunter Dress, Jacket, and Hat for purchase at Grade IV.",
     "links": [
       {
         "text": "Hunter of Cursed Captains",
@@ -494,7 +494,7 @@
   },
   {
     "commendation": "Worthy Emissary of Souls",
-    "rewards": "Rewards the Seeker of Lost Souls Title.\n Unlocks the Order of Souls Blunderbuss, Cutlass, Pistol and Eye of Reach for purchase.",
+    "rewards": "Rewards the Seeker of Lost Souls Title. Unlocks the Order of Souls Blunderbuss, Cutlass, Pistol and Eye of Reach for purchase.",
     "links": [
       {
         "text": "Seeker of Lost Souls",
@@ -570,7 +570,7 @@
   },
   {
     "commendation": "Scourge of the Damned",
-    "rewards": "Rewards the Scourge of the Damned Title.\n Required to unlock the Chest of the Damned Disguise in conjunction with The Power of Three for purchase at Grade III.",
+    "rewards": "Rewards the Scourge of the Damned Title. Required to unlock the Chest of the Damned Disguise in conjunction with The Power of Three for purchase at Grade III.",
     "links": [
       {
         "text": "Scourge of the Damned",
@@ -598,7 +598,7 @@
   },
   {
     "commendation": "Banisher of the Spectral Flame",
-    "rewards": "Rewards the Banisher of the Spectral Flame Title.\n Unlocks the Burning Blade Sails for purchase.",
+    "rewards": "Rewards the Banisher of the Spectral Flame Title. Unlocks the Burning Blade Sails for purchase.",
     "links": [
       {
         "text": "Banisher of the Spectral Flame",
@@ -882,7 +882,7 @@
   },
   {
     "commendation": "Manifestation",
-    "rewards": "Rewards the Merchant of Manifests Title.\n Unlocks the Merchant Pathfinder Sail for purchase.",
+    "rewards": "Rewards the Merchant of Manifests Title. Unlocks the Merchant Pathfinder Sail for purchase.",
     "links": [
       {
         "text": "Merchant of Manifests",
@@ -901,7 +901,7 @@
   },
   {
     "commendation": "Cabin Fever",
-    "rewards": "Rewards the Merchant of Mysteries Title.\n Unlocks the Golden Gatherer Merchant Sail for purchase.",
+    "rewards": "Rewards the Merchant of Mysteries Title. Unlocks the Golden Gatherer Merchant Sail for purchase.",
     "links": [
       {
         "text": "Merchant of Mysteries",
@@ -1195,7 +1195,7 @@
   },
   {
     "commendation": "Sharpshooting Sea Dog",
-    "rewards": "Rewards the Sharpshooting Sea Dog Title.\n Unlocks Glorious Sea Dog Flintlock for purchase.",
+    "rewards": "Rewards the Sharpshooting Sea Dog Title. Unlocks Glorious Sea Dog Flintlock for purchase.",
     "links": [
       {
         "text": "Sharpshooting Sea Dog",
@@ -1219,7 +1219,7 @@
   },
   {
     "commendation": "Deadeye Sea Dog",
-    "rewards": "Rewards the Deadeye Sea Dog Title.\n Unlocks Glorious Sea Dog Eye of Reach for purchase.",
+    "rewards": "Rewards the Deadeye Sea Dog Title. Unlocks Glorious Sea Dog Eye of Reach for purchase.",
     "links": [
       {
         "text": "Deadeye Sea Dog",
@@ -1303,7 +1303,7 @@
   },
   {
     "commendation": "Captain of Silvered Waters",
-    "rewards": "Rewards the Captain of Silvered Waters Title.\n Unlocks Glorious Sea Dog Belt, Boots, Dress, Gloves, Hat, Hook, Pegleg, Jacket, and Trousers for purchase.",
+    "rewards": "Rewards the Captain of Silvered Waters Title. Unlocks Glorious Sea Dog Belt, Boots, Dress, Gloves, Hat, Hook, Pegleg, Jacket, and Trousers for purchase.",
     "links": [
       {
         "text": "Captain of Silvered Waters",
@@ -1608,7 +1608,7 @@
   },
   {
     "commendation": "Hunter of Splashtails",
-    "rewards": "Rewards the Hunter of Splashtails Title.\n Unlocks Bilge Rat Fishing Rod, Castaway Bilge Rat Fishing Rod, and Scurvy Bilge Rat Fishing Rod for purchase.",
+    "rewards": "Rewards the Hunter of Splashtails Title. Unlocks Bilge Rat Fishing Rod, Castaway Bilge Rat Fishing Rod, and Scurvy Bilge Rat Fishing Rod for purchase.",
     "links": [
       {
         "text": "Hunter of Splashtails",
@@ -1655,7 +1655,7 @@
   },
   {
     "commendation": "Hunter of Plentifins",
-    "rewards": "Rewards the Hunter of Plentifins Title.\n Unlocks Admiral Fishing Rod, Grand Admiral Fishing Rod, and Ceremonial Admiral Fishing Rod for purchase.",
+    "rewards": "Rewards the Hunter of Plentifins Title. Unlocks Admiral Fishing Rod, Grand Admiral Fishing Rod, and Ceremonial Admiral Fishing Rod for purchase.",
     "links": [
       {
         "text": "Hunter of Plentifins",
@@ -1702,7 +1702,7 @@
   },
   {
     "commendation": "Hunter of Ancientscales",
-    "rewards": "Rewards the Hunter of Ancientscales Title.\n Unlocks Sovereign Fishing Rod, Imperial Sovereign Fishing Rod, and Royal Sovereign Fishing Rod for purchase.",
+    "rewards": "Rewards the Hunter of Ancientscales Title. Unlocks Sovereign Fishing Rod, Imperial Sovereign Fishing Rod, and Royal Sovereign Fishing Rod for purchase.",
     "links": [
       {
         "text": "Hunter of Ancientscales",
@@ -1749,7 +1749,7 @@
   },
   {
     "commendation": "Hunter of Wildsplashes",
-    "rewards": "Rewards the Hunter of Wildsplashes Title.\n Unlocks Sea Dog Fishing Rod, Ruffian Sea Dog Fishing Rod, and Rogue Sea Dog Fishing Rod for purchase.",
+    "rewards": "Rewards the Hunter of Wildsplashes Title. Unlocks Sea Dog Fishing Rod, Ruffian Sea Dog Fishing Rod, and Rogue Sea Dog Fishing Rod for purchase.",
     "links": [
       {
         "text": "Hunter of Wildsplashes",
@@ -1796,7 +1796,7 @@
   },
   {
     "commendation": "Hunter of Devilfishes",
-    "rewards": "Rewards the Hunter of Devilfishes Title.\n Unlocks Forsaken Ashes Fishing Rod for purchase.",
+    "rewards": "Rewards the Hunter of Devilfishes Title. Unlocks Forsaken Ashes Fishing Rod for purchase.",
     "links": [
       {
         "text": "Hunter of Devilfishes",
@@ -1835,7 +1835,7 @@
   },
   {
     "commendation": "Hunter of Islehoppers",
-    "rewards": "Rewards the Hunter of Islehoppers Title.\n Unlocks Hunter Fishing Rod and Merchant Alliance Fishing Rod for purchase.",
+    "rewards": "Rewards the Hunter of Islehoppers Title. Unlocks Hunter Fishing Rod and Merchant Alliance Fishing Rod for purchase.",
     "links": [
       {
         "text": "Hunter of Islehoppers",
@@ -1878,7 +1878,7 @@
   },
   {
     "commendation": "Hunter of Pondies",
-    "rewards": "Rewards the Hunter of Pondies Title.\n Unlocks Parrot Fishing Rod for purchase.",
+    "rewards": "Rewards the Hunter of Pondies Title. Unlocks Parrot Fishing Rod for purchase.",
     "links": [
       {
         "text": "Hunter of Pondies",
@@ -1917,7 +1917,7 @@
   },
   {
     "commendation": "Hunter of Battlegills",
-    "rewards": "Rewards the Hunter of Battlegills Title.\n Unlocks Bone Crusher Fishing Rod and Order of Souls Fishing Rod for purchase.",
+    "rewards": "Rewards the Hunter of Battlegills Title. Unlocks Bone Crusher Fishing Rod and Order of Souls Fishing Rod for purchase.",
     "links": [
       {
         "text": "Hunter of Battlegills",
@@ -1960,7 +1960,7 @@
   },
   {
     "commendation": "Hunter of Stormfishes",
-    "rewards": "Rewards the Hunter of Stormfishes Title.\n Unlocks Kraken Fishing Rod and Frostbite Fishing Rod for purchase.",
+    "rewards": "Rewards the Hunter of Stormfishes Title. Unlocks Kraken Fishing Rod and Frostbite Fishing Rod for purchase.",
     "links": [
       {
         "text": "Hunter of Stormfishes",
@@ -2003,7 +2003,7 @@
   },
   {
     "commendation": "Hunter of Wreckers",
-    "rewards": "Rewards the Hunter of Wreckers Title.\n Unlocks Ocean Crawler Fishing Rod and Gold Hoarders Fishing Rod for purchase.",
+    "rewards": "Rewards the Hunter of Wreckers Title. Unlocks Ocean Crawler Fishing Rod and Gold Hoarders Fishing Rod for purchase.",
     "links": [
       {
         "text": "Hunter of Wreckers",
@@ -2021,7 +2021,7 @@
   },
   {
     "commendation": "Hunter of the Dawn Caller",
-    "rewards": "Rewards the Hunter of the Dawn Caller Title.\n Unlocks Dawn Caller Tattoo Set for purchase.",
+    "rewards": "Rewards the Hunter of the Dawn Caller Title. Unlocks Dawn Caller Tattoo Set for purchase.",
     "links": [
       {
         "text": "Hunter of the Dawn Caller",
@@ -2035,7 +2035,7 @@
   },
   {
     "commendation": "Hunter of the Wild Hog",
-    "rewards": "Rewards the Hunter of the Wild Hog Title.\n Unlocks Wild Hog Tattoo Set for purchase.",
+    "rewards": "Rewards the Hunter of the Wild Hog Title. Unlocks Wild Hog Tattoo Set for purchase.",
     "links": [
       {
         "text": "Hunter of the Wild Hog",
@@ -2049,7 +2049,7 @@
   },
   {
     "commendation": "Hunter of the Serpent's Scale",
-    "rewards": "Rewards the Hunter of the Serpent's Scale Title.\n Unlocks Serpent's Scale Tattoo Set for purchase.",
+    "rewards": "Rewards the Hunter of the Serpent's Scale Title. Unlocks Serpent's Scale Tattoo Set for purchase.",
     "links": [
       {
         "text": "Hunter of the Serpent's Scale",
@@ -2063,7 +2063,7 @@
   },
   {
     "commendation": "Hunter of Sharpened Teeth",
-    "rewards": "Rewards the Hunter of Sharpened Teeth Title.\n Unlocks Sharpened Teeth Tattoo Set for purchase.",
+    "rewards": "Rewards the Hunter of Sharpened Teeth Title. Unlocks Sharpened Teeth Tattoo Set for purchase.",
     "links": [
       {
         "text": "Hunter of Sharpened Teeth",
@@ -2077,7 +2077,7 @@
   },
   {
     "commendation": "Hunter of the Great Maw",
-    "rewards": "Rewards the Hunter of the Great Maw Title.\n Unlocks Megalodon Makeup for purchase.",
+    "rewards": "Rewards the Hunter of the Great Maw Title. Unlocks Megalodon Makeup for purchase.",
     "links": [
       {
         "text": "Hunter of the Great Maw",
@@ -2091,7 +2091,7 @@
   },
   {
     "commendation": "Hunter of the Monstrous Beast",
-    "rewards": "Rewards the Hunter of the Monstrous Beast Title.\n Unlocks Kraken Makeup for purchase.",
+    "rewards": "Rewards the Hunter of the Monstrous Beast Title. Unlocks Kraken Makeup for purchase.",
     "links": [
       {
         "text": "Hunter of the Monstrous Beast",
@@ -2125,7 +2125,7 @@
   },
   {
     "commendation": "Hunter of Trophy Fish",
-    "rewards": "Rewards the Hunter of Trophy Fish Title.\n Unlocks Azure Ocean Crawler Set.",
+    "rewards": "Rewards the Hunter of Trophy Fish Title. Unlocks Azure Ocean Crawler Set.",
     "links": [
       {
         "text": "Hunter of Trophy Fish",
@@ -2449,7 +2449,7 @@
   },
   {
     "commendation": "Sailor of Athena's Fortune",
-    "rewards": "Rewards the Sailor of Athena's Fortune Title.\n Unlocks the Legendary Capstan for purchase.",
+    "rewards": "Rewards the Sailor of Athena's Fortune Title. Unlocks the Legendary Capstan for purchase.",
     "links": [
       {
         "text": "Sailor of Athena's Fortune",
@@ -2463,7 +2463,7 @@
   },
   {
     "commendation": "Athena's Voyager",
-    "rewards": "Rewards the Athena's Voyager Title.\n Unlocks the Legendary Wheel for purchase.",
+    "rewards": "Rewards the Athena's Voyager Title. Unlocks the Legendary Wheel for purchase.",
     "links": [
       {
         "text": "Athena's Voyager",
@@ -2477,7 +2477,7 @@
   },
   {
     "commendation": "Legendary Treasure Hunter",
-    "rewards": "Rewards the Legendary Treasure Hunter Title.\n Unlocks the Legendary Treasure Seeker Costume for purchase.",
+    "rewards": "Rewards the Legendary Treasure Hunter Title. Unlocks the Legendary Treasure Seeker Costume for purchase.",
     "links": [
       {
         "text": "Legendary Treasure Hunter",
@@ -2501,7 +2501,7 @@
   },
   {
     "commendation": "Hoarder of Athena's Fortune",
-    "rewards": "Rewards the Hoarder of Athena's Fortune Title.\n Required to unlock the Chest of Legends Disguise for purchase, in conjunction with Pitfall Practitioner.",
+    "rewards": "Rewards the Hoarder of Athena's Fortune Title. Required to unlock the Chest of Legends Disguise for purchase, in conjunction with Pitfall Practitioner.",
     "links": [
       {
         "text": "Hoarder of Athena's Fortune",
@@ -2559,7 +2559,7 @@
   },
   {
     "commendation": "Legendary Gold Hoarder",
-    "rewards": "Rewards the Legendary Gold Hoarder Title.\n Unlocks the Legendary Shovel and Legendary Compass for purchase.",
+    "rewards": "Rewards the Legendary Gold Hoarder Title. Unlocks the Legendary Shovel and Legendary Compass for purchase.",
     "links": [
       {
         "text": "Legendary Gold Hoarder",
@@ -2587,7 +2587,7 @@
   },
   {
     "commendation": "Legend of the Mystical Order",
-    "rewards": "Rewards the Legend of the Mystical Order Title.\n Unlocks the Legendary Tankard and Legendary Lantern for purchase.",
+    "rewards": "Rewards the Legend of the Mystical Order Title. Unlocks the Legendary Tankard and Legendary Lantern for purchase.",
     "links": [
       {
         "text": "Legend of the Mystical Order",
@@ -2605,7 +2605,7 @@
   },
   {
     "commendation": "Legendary Merchant Trader",
-    "rewards": "Rewards the Legendary Merchant Trader Title.\n Unlocks the Legendary Spyglass and Legendary Pocket Watch for purchase.",
+    "rewards": "Rewards the Legendary Merchant Trader Title. Unlocks the Legendary Spyglass and Legendary Pocket Watch for purchase.",
     "links": [
       {
         "text": "Legendary Merchant Trader",
@@ -2673,7 +2673,7 @@
   },
   {
     "commendation": "Legend of The Sea of Thieves",
-    "rewards": "Rewards the Legend of The Sea of Thieves Title.\n Unlocks the Legendary Cannons for purchase.",
+    "rewards": "Rewards the Legend of The Sea of Thieves Title. Unlocks the Legendary Cannons for purchase.",
     "links": [
       {
         "text": "Legend of The Sea of Thieves",
@@ -2687,7 +2687,7 @@
   },
   {
     "commendation": "Legendary Sea Dog",
-    "rewards": "Rewards the Legendary Sea Dog Title.\n Unlocks the Legendary Cutlass, Legendary Flintlock, Legendary Blunderbuss, Legendary Eye of Reach for purchase.\nUnlocks the Victorious Sea Dog Blunderbuss.",
+    "rewards": "Rewards the Legendary Sea Dog Title. Unlocks the Legendary Cutlass, Legendary Flintlock, Legendary Blunderbuss, Legendary Eye of Reach for purchase.  Unlocks the Victorious Sea Dog Blunderbuss.",
     "links": [
       {
         "text": "Legendary Sea Dog",
@@ -2717,7 +2717,7 @@
   },
   {
     "commendation": "Legend of the Deep",
-    "rewards": "Rewards the Legend of the Deep Title.\n Unlocks the Ghost Fishing Rod for purchase.",
+    "rewards": "Rewards the Legend of the Deep Title. Unlocks the Ghost Fishing Rod for purchase.",
     "links": [
       {
         "text": "Legend of the Deep",
@@ -2745,7 +2745,7 @@
   },
   {
     "commendation": "Gilded Loot of Legends",
-    "rewards": "Unlocks the Ghost Tankard for purchase.\nUnlocks Collector of Legendary Relics Title (Required to unlock the Ghost Cannon for purchase, in conjunction with the \"Shiny Loot of Legends\" Commendation Title.)",
+    "rewards": "Unlocks the Ghost Tankard for purchase.  Unlocks Collector of Legendary Relics Title (Required to unlock the Ghost Cannon for purchase, in conjunction with the \"Shiny Loot of Legends\" Commendation Title.)",
     "links": [
       {
         "text": "Ghost Tankard",
@@ -2777,7 +2777,7 @@
   },
   {
     "commendation": "Villainous Loot of Legends",
-    "rewards": "Unlocks the Ghost Bucket for purchase.\nUnlocks Collector of Legendary Villainous Skulls Title (Required to unlock the the Ghost Capstan for purchase, in conjunction with the \"Spooky Loot of Legends\" Commendation Title.)",
+    "rewards": "Unlocks the Ghost Bucket for purchase.  Unlocks Collector of Legendary Villainous Skulls Title (Required to unlock the the Ghost Capstan for purchase, in conjunction with the \"Spooky Loot of Legends\" Commendation Title.)",
     "links": [
       {
         "text": "Ghost Bucket",
@@ -2809,7 +2809,7 @@
   },
   {
     "commendation": "Explosive Loot of Legends",
-    "rewards": "Unlocks the Ghost Pocket Watch for purchase.\nUnlocks Collector of Legendary Black Powder Title (Required to unlock the Ghost Wheel for purchase, in conjunction with the \"Mercantile Loot of Legends\" Commendation Title.)",
+    "rewards": "Unlocks the Ghost Pocket Watch for purchase.  Unlocks Collector of Legendary Black Powder Title (Required to unlock the Ghost Wheel for purchase, in conjunction with the \"Mercantile Loot of Legends\" Commendation Title.)",
     "links": [
       {
         "text": "Ghost Pocket Watch",
@@ -3555,7 +3555,7 @@
   },
   {
     "commendation": "Seeker of Grand Adventure",
-    "rewards": "Rewards the Sailor of the Shores of Gold Title.\n Unlocks the Shores of Gold Curse in the Vanity Chest.",
+    "rewards": "Rewards the Sailor of the Shores of Gold Title. Unlocks the Shores of Gold Curse in the Vanity Chest.",
     "links": [
       {
         "text": "Sailor of the Shores of Gold",
@@ -3573,7 +3573,7 @@
   },
   {
     "commendation": "Unto the Horizon",
-    "rewards": "Rewards the Maiden Voyager Title.\n Unlocks the Pirate Lord Jacket in the Clothing Chest.",
+    "rewards": "Rewards the Maiden Voyager Title. Unlocks the Pirate Lord Jacket in the Clothing Chest.",
     "links": [
       {
         "text": "Maiden Voyager",
@@ -4432,7 +4432,7 @@
   },
   {
     "commendation": "Legend of Monkey Island",
-    "rewards": "Rewards the Mighty Pirate Title.\n Unlocks the Monkey Island Shanty.",
+    "rewards": "Rewards the Mighty Pirate Title. Unlocks the Monkey Island Shanty.",
     "links": [
       {
         "text": "Mighty Pirate",
@@ -4466,12 +4466,8 @@
   },
   {
     "commendation": "Retreat to the Thrones' Haven",
-    "rewards": "+8 \n\n Rewards the Legend of Thieves' Haven Title.",
+    "rewards": "+8 Doubloons Rewards the Legend of Thieves' Haven Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Legend of Thieves' Haven",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Legend_of_Thieves'_Haven"
@@ -4480,292 +4476,148 @@
   },
   {
     "commendation": "Rest in the Throne that is Hidden Away",
-    "rewards": "+8",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+8 Doubloons",
+    "links": []
   },
   {
     "commendation": "Sit in the Throne Beneath the Ridge",
-    "rewards": "+8",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+8 Doubloons",
+    "links": []
   },
   {
     "commendation": "Be seated in the Throne that Keeps Watch",
-    "rewards": "+8",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+8 Doubloons",
+    "links": []
   },
   {
     "commendation": "Take a Seat in the Throne Beneath the Waves",
-    "rewards": "+8",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+8 Doubloons",
+    "links": []
   },
   {
     "commendation": "Rest in the Cove's Secret Throne",
-    "rewards": "+12",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+12 Doubloons",
+    "links": []
   },
   {
     "commendation": "Plunder the Secret Throne",
-    "rewards": "+12",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+12 Doubloons",
+    "links": []
   },
   {
     "commendation": "Sit in the Throne Amongst the Wreckage",
-    "rewards": "+12",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+12 Doubloons",
+    "links": []
   },
   {
     "commendation": "Smuggle into the Throne Close to the Bay",
-    "rewards": "+12",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+12 Doubloons",
+    "links": []
   },
   {
     "commendation": "Maraud in the Throne Found Up High",
-    "rewards": "+12",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+12 Doubloons",
+    "links": []
   },
   {
     "commendation": "Skeleton Exploder",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Skeleton Exploder",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Plant Skeleton Exploder",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Plant Skeleton Exploder",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Gold Skeleton Exploder",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Gold Skeleton Exploder",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Shadow Skeleton Exploder",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Shadow Skeleton Exploder",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legendary Skeleton Exploder",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Chain Reaction",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legendary Chain Reaction",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Gunpowder Plot",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legendary Gunpowder Plot",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Sapphire Curse Breaker",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Sapphire Curse Breaker",
-    "rewards": "+15",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+15 Doubloons",
+    "links": []
   },
   {
     "commendation": "Emerald Curse Breaker",
-    "rewards": "+8",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+8 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Emerald Curse Breaker",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ruby Curse Breaker",
-    "rewards": "+12",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+12 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Ruby Curse Breaker",
-    "rewards": "+35",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+35 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legendary Curse Breaker",
-    "rewards": "+50 \n\n Rewards the Legendary Curse Breaker Title.",
+    "rewards": "+50 Doubloons Rewards the Legendary Curse Breaker Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Legendary Curse Breaker",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Legendary_Curse_Breaker"
@@ -4774,12 +4626,8 @@
   },
   {
     "commendation": "Protector of The Wilds",
-    "rewards": "+10 \n Rewards the Protector of The Wilds Title.",
+    "rewards": "+10 Doubloons Rewards the Protector of The Wilds Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Protector of The Wilds",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Protector_of_The_Wilds"
@@ -4788,12 +4636,8 @@
   },
   {
     "commendation": "Protector of The Shores of Plenty",
-    "rewards": "+10 \n Rewards the Protector of The Shores of Plenty Title.",
+    "rewards": "+10 Doubloons Rewards the Protector of The Shores of Plenty Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Protector of The Shores of Plenty",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Protector_of_The_Shores_of_Plenty"
@@ -4802,12 +4646,8 @@
   },
   {
     "commendation": "Protector of The Ancient Isles",
-    "rewards": "+10 \n Rewards the Protector of The Ancient Isles Title.",
+    "rewards": "+10 Doubloons Rewards the Protector of The Ancient Isles Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Protector of The Ancient Isles",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Protector_of_The_Ancient_Isles"
@@ -4816,12 +4656,8 @@
   },
   {
     "commendation": "Conqueror of the Skeleton Fleets",
-    "rewards": "+20 \n Rewards the Conqueror of the Skeleton Fleets Title.",
+    "rewards": "+20 Doubloons Rewards the Conqueror of the Skeleton Fleets Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Conqueror of the Skeleton Fleets",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Conqueror_of_the_Skeleton_Fleets"
@@ -4830,142 +4666,73 @@
   },
   {
     "commendation": "Battle Hardened Sloop Crew",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Battle Hardened Brigantine Crew",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Battle Hardened Galleon Crew",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Destroyer of The Cursed Helm",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Destroyer of The Foul Grog",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Destroyer of The Dancing Demon",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Destroyer of The Fools Stride",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Destroyer of The Treacherous Bounty",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Destroyer of The Enslaving Chain",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Destroyer of The Sandman's Revenge",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Destroyer of The Black Viper",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Destroyer of The Siren's Gale",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Seeker of Wanda's Treachery",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Seeker of the Warsmith",
-    "rewards": "+10 \n Rewards the Seeker of the Warsmith Title.",
+    "rewards": "+10 Doubloons Rewards the Seeker of the Warsmith Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Seeker of the Warsmith",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Seeker_of_the_Warsmith"
@@ -4974,33 +4741,18 @@
   },
   {
     "commendation": "Fleet Protectors of The Wilds",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Fleet Protectors of The Shores of Plenty",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Fleet Protectors of The Ancient Isles",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Seeker of Accursed Plans",
@@ -5060,62 +4812,33 @@
   },
   {
     "commendation": "The Curse Of The Foul Grog",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Curse Of The Dancing Demon",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Curse Of The Black Viper",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Curse Of The Sandman's Revenge",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Curse Of The Fools Stride",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Of Cursed Iron",
-    "rewards": "+10 \n Unlocks the Fearless Bone Crusher Wheel for purchase.",
+    "rewards": "+10 Doubloons Unlocks the Fearless Bone Crusher Wheel for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Fearless Bone Crusher Wheel",
         "href": "https://seaofthieves.wiki.gg/wiki/Fearless_Bone_Crusher_Wheel"
@@ -5124,12 +4847,8 @@
   },
   {
     "commendation": "Legend Of Cursed Iron",
-    "rewards": "+30 \n Rewards the Legend Of Cursed Iron Title.",
+    "rewards": "+30 Doubloons Rewards the Legend Of Cursed Iron Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Legend Of Cursed Iron",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Legend_Of_Cursed_Iron"
@@ -5138,62 +4857,33 @@
   },
   {
     "commendation": "The Curse Of The Afflicted Helm",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Curse Of The Enslaving Chain",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Curse Of The Treacherous Bounty",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Curse Of The Siren's Gale",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Curse Of The Thieves Burden",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Curse Of The Pacifists Demise",
-    "rewards": "+5 \n Unlocks Cultured Aristocrat Set items for purchase.",
+    "rewards": "+5 Doubloons Unlocks Cultured Aristocrat Set items for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Cultured Aristocrat Set",
         "href": "https://seaofthieves.wiki.gg/wiki/Cultured_Aristocrat_Set"
@@ -5202,22 +4892,13 @@
   },
   {
     "commendation": "Cursed Voyager",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legendary Cursed Voyager",
-    "rewards": "+30 \n Rewards the Legendary Cursed Voyager Title.",
+    "rewards": "+30 Doubloons Rewards the Legendary Cursed Voyager Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Legendary Cursed Voyager",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Legendary_Cursed_Voyager"
@@ -5226,242 +4907,123 @@
   },
   {
     "commendation": "The Cursed Crews",
-    "rewards": "+15",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+15 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Fetcher's Rest",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Flintlock Peninsula",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Ruby's Fall",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover The Devil's Thirst",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Ashen Reaches",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Scorched Pass",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Cursewater Shores",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Cinder Islet",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover The Forsaken Brink",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Glowstone Cay",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Roaring Sands",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Flame's End",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Brimstone Rock",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Magma's Tide",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Discover Morrow's Peak",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Uncover the Fate of 'Fetcher' Farley",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Uncover the Fate of Ruby Carter",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Uncover the Fate of Old Coop",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Uncover the Fate of 'Flintlock' Bert",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Uncover the Fate of Hepzibah Jones",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Golden Devil's Voyager",
-    "rewards": "+15",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+15 Doubloons",
+    "links": []
   },
   {
     "commendation": "Mystic Devil's Voyager",
-    "rewards": "+15",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+15 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Devil's Voyager",
-    "rewards": "+30 \n Rewards the Master Devil's Voyager Title.\n Unlocks the Forsaken Ashes Set Clothing, Vanity, and Equipment items for purchase.",
+    "rewards": "+30 Doubloons Rewards the Master Devil's Voyager Title. Unlocks the Forsaken Ashes Set Clothing, Vanity, and Equipment items for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Master Devil's Voyager",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Master_Devil's_Voyager"
@@ -5474,22 +5036,13 @@
   },
   {
     "commendation": "Cargo Runner",
-    "rewards": "+15",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+15 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Cargo Runner",
-    "rewards": "+30 \n Rewards the Master Cargo Runner Title.",
+    "rewards": "+30 Doubloons Rewards the Master Cargo Runner Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Master Cargo Runner",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Master_Cargo_Runner"
@@ -5498,22 +5051,13 @@
   },
   {
     "commendation": "Fleet Cargo Runner",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legendary Cargo Runner",
-    "rewards": "+50 \n Rewards the Legendary Cargo Runner Title.",
+    "rewards": "+50 Doubloons Rewards the Legendary Cargo Runner Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Legendary Cargo Runner",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Legendary_Cargo_Runner"
@@ -5522,142 +5066,73 @@
   },
   {
     "commendation": "Devil's Cargo Runner",
-    "rewards": "+15",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+15 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Flame of Lost Seafarers",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Flame of Burning Hearts",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Flame of Cursed Bones",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Flame of Treacherous Weather",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Flame of the Viper",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Flame of Embattled Souls",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Lightbringer of the Shores of Plenty",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Lightbringer of the Ancient Isles",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Lightbringer of the Wilds",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Lightbringer of the Devil's Roar",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Alliance of the Damned",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Festival Party Boat",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legend of The Damned",
-    "rewards": "+50 \n Rewards the Legend of The Damned Title.",
+    "rewards": "+50 Doubloons Rewards the Legend of The Damned Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Legend of The Damned",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Legend_of_The_Damned"
@@ -5666,12 +5141,8 @@
   },
   {
     "commendation": "Kraken Hunter",
-    "rewards": "+10 \n Unlocks the Kraken Capstan for purchase.",
+    "rewards": "+10 Doubloons Unlocks the Kraken Capstan for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Kraken Capstan",
         "href": "https://seaofthieves.wiki.gg/wiki/Kraken_Capstan"
@@ -5680,12 +5151,8 @@
   },
   {
     "commendation": "Master Kraken Hunter",
-    "rewards": "+20 \n Rewards the Master Kraken Hunter Title.\n Unlocks the Kraken Wheel for purchase.",
+    "rewards": "+20 Doubloons Rewards the Master Kraken Hunter Title. Unlocks the Kraken Wheel for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Master Kraken Hunter",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Master_Kraken_Hunter"
@@ -5698,12 +5165,8 @@
   },
   {
     "commendation": "Legendary Kraken Hunter",
-    "rewards": "+50 \n Rewards the Legendary Kraken Hunter Title.\n Unlocks the Kraken Cannons and Venomous Kraken Set for purchase.",
+    "rewards": "+50 Doubloons Rewards the Legendary Kraken Hunter Title. Unlocks the Kraken Cannons and Venomous Kraken Set for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Legendary Kraken Hunter",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Legendary_Kraken_Hunter"
@@ -5720,12 +5183,8 @@
   },
   {
     "commendation": "Hunter of the Hungering One",
-    "rewards": "+5 \n Rewards the Hunter of the Hungering One Title.",
+    "rewards": "+5 Doubloons Rewards the Hunter of the Hungering One Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Hunter of the Hungering One",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Hunter_of_the_Hungering_One"
@@ -5734,12 +5193,8 @@
   },
   {
     "commendation": "Hunter of the Crested Queen",
-    "rewards": "+10 \n Rewards the Hunter of the Crested Queen Title.",
+    "rewards": "+10 Doubloons Rewards the Hunter of the Crested Queen Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Hunter of the Crested Queen",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Hunter_of_the_Crested_Queen"
@@ -5748,12 +5203,8 @@
   },
   {
     "commendation": "Hunter of the Shadowmaw",
-    "rewards": "+15 \n Rewards the Hunter of the Shadowmaw Title.",
+    "rewards": "+15 Doubloons Rewards the Hunter of the Shadowmaw Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Hunter of the Shadowmaw",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Hunter_of_the_Shadowmaw"
@@ -5762,12 +5213,8 @@
   },
   {
     "commendation": "Hunter of the Ancient Terror",
-    "rewards": "+25 \n Rewards the Hunter of the Ancient Terror Title.",
+    "rewards": "+25 Doubloons Rewards the Hunter of the Ancient Terror Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Hunter of the Ancient Terror",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Hunter_of_the_Ancient_Terror"
@@ -5776,12 +5223,8 @@
   },
   {
     "commendation": "Hunter of the Shrouded Ghost",
-    "rewards": "+50 \n Rewards the Hunter of the Shrouded Ghost Title.\n Unlocks the Shrouded Ghost Figurehead in the Ship Customization Chest, and the Spectre of the Sea Trophy for purchase.",
+    "rewards": "+50 Doubloons Rewards the Hunter of the Shrouded Ghost Title. Unlocks the Shrouded Ghost Figurehead in the Ship Customization Chest, and the Spectre of the Sea Trophy for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Hunter of the Shrouded Ghost",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Hunter_of_the_Shrouded_Ghost"
@@ -5802,52 +5245,28 @@
   },
   {
     "commendation": "Master of Black Powder",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Golden Master of Strongholds",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Mystical Master of Strongholds",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master of Ancient Bone Dust",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Golden Skeleton Captain",
-    "rewards": "+20 \n Rewards the Golden Skeleton Captain Title.\n Unlocks the Bone Crusher Capstan for purchase.",
+    "rewards": "+20 Doubloons Rewards the Golden Skeleton Captain Title. Unlocks the Bone Crusher Capstan for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Golden Skeleton Captain",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Golden_Skeleton_Captain"
@@ -5860,12 +5279,8 @@
   },
   {
     "commendation": "Mystical Skeleton Captain",
-    "rewards": "+20 \n Rewards the Mystical Skeleton Captain Title.\n Unlocks the Bone Crusher Wheel for purchase.",
+    "rewards": "+20 Doubloons Rewards the Mystical Skeleton Captain Title. Unlocks the Bone Crusher Wheel for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Mystical Skeleton Captain",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Mystical_Skeleton_Captain"
@@ -5878,12 +5293,8 @@
   },
   {
     "commendation": "Hoarder of Sapphire Mermaid Gems",
-    "rewards": "+10 \n Unlocks the Ocean Crawler Capstan for purchase.",
+    "rewards": "+10 Doubloons Unlocks the Ocean Crawler Capstan for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Ocean Crawler Capstan",
         "href": "https://seaofthieves.wiki.gg/wiki/Ocean_Crawler_Capstan"
@@ -5892,12 +5303,8 @@
   },
   {
     "commendation": "Hoarder of Emerald Mermaid Gems",
-    "rewards": "+15 \n Unlocks the Ocean Crawler Wheel for purchase.",
+    "rewards": "+15 Doubloons Unlocks the Ocean Crawler Wheel for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Ocean Crawler Wheel",
         "href": "https://seaofthieves.wiki.gg/wiki/Ocean_Crawler_Wheel"
@@ -5906,12 +5313,8 @@
   },
   {
     "commendation": "Hoarder of Ruby Mermaid Gems",
-    "rewards": "+25 \n Unlocks the Ocean Crawler Cannons for purchase.",
+    "rewards": "+25 Doubloons Unlocks the Ocean Crawler Cannons for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Ocean Crawler Cannons",
         "href": "https://seaofthieves.wiki.gg/wiki/Ocean_Crawler_Cannons"
@@ -5920,52 +5323,28 @@
   },
   {
     "commendation": "Loyal to the Coin",
-    "rewards": "+50",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+50 Doubloons",
+    "links": []
   },
   {
     "commendation": "Mercenary of The Ancient Isles",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Mercenary of The Wilds",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Reaper of Wanderers Refuge",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legendary Reaper of Wanderers Refuge",
-    "rewards": "+50 \n Rewards the The Wandering Reaper Title.",
+    "rewards": "+50 Doubloons Rewards the The Wandering Reaper Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "The Wandering Reaper",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#The_Wandering_Reaper"
@@ -5974,42 +5353,23 @@
   },
   {
     "commendation": "Mercenary of The Shores Of Plenty",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Mercenary of The Devils Roar",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Reaper of Shipwreck Bay",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legendary Reaper of Shipwreck Bay",
-    "rewards": "+50 \n Rewards the The Shipwreck Reaper Title.",
+    "rewards": "+50 Doubloons Rewards the The Shipwreck Reaper Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "The Shipwreck Reaper",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#The_Shipwreck_Reaper"
@@ -6018,82 +5378,43 @@
   },
   {
     "commendation": "Black Powder Smuggler of The Shores of Plenty",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Black Powder Smuggler of The Ancient Isles",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Black Powder Smuggler of The Wilds",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Black Powder Smuggler",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Black Powder Smuggler of The Devil's Roar",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Westward Black Powder Reaper",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Eastward Black Powder Reaper",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legendary Eastward Black Powder Reaper",
-    "rewards": "+50 \n Rewards the Legendary Eastward Black Powder Reaper Title.",
+    "rewards": "+50 Doubloons Rewards the Legendary Eastward Black Powder Reaper Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Legendary Eastward Black Powder Reaper",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Legendary_Eastward_Black_Powder_Reaper"
@@ -6102,12 +5423,8 @@
   },
   {
     "commendation": "Legendary Westward Black Powder Reaper",
-    "rewards": "+50 \n Rewards the Legendary Westward Black Powder Reaper Title.",
+    "rewards": "+50 Doubloons Rewards the Legendary Westward Black Powder Reaper Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Legendary Westward Black Powder Reaper",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Legendary_Westward_Black_Powder_Reaper"
@@ -6116,112 +5433,58 @@
   },
   {
     "commendation": "Conveyor of Jewels",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Seeker of Crystals",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Dealer of Gemstones",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Gunpowder for Gold",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Munitions for the Mystics",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Bang for your Buck",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Greater Gunpowder for Gold",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "More Munitions for the Mystics",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Bigger Bang for your Buck",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "An Arsenal for Athena",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Golden Benefactor",
-    "rewards": "+15 \n Rewards the Golden Benefactor Title.",
+    "rewards": "+15 Doubloons Rewards the Golden Benefactor Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Golden Benefactor",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Golden_Benefactor"
@@ -6230,12 +5493,8 @@
   },
   {
     "commendation": "Mystic Benefactor",
-    "rewards": "+15 \n Rewards the Mystic Benefactor Title.",
+    "rewards": "+15 Doubloons Rewards the Mystic Benefactor Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Mystic Benefactor",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Mystic_Benefactor"
@@ -6244,12 +5503,8 @@
   },
   {
     "commendation": "Merchant Benefactor",
-    "rewards": "+15 \n Rewards the Merchant Benefactor Title.",
+    "rewards": "+15 Doubloons Rewards the Merchant Benefactor Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Merchant Benefactor",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Merchant_Benefactor"
@@ -6258,52 +5513,28 @@
   },
   {
     "commendation": "Ancient Darkness",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Dark Wilderness",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Darkening Shores",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Devil's Darkness",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Seeking Stolen Power",
-    "rewards": "+50 \n Rewards the Relic Hunter Title.",
+    "rewards": "+50 Doubloons Rewards the Relic Hunter Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Relic Hunter",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Relic_Hunter"
@@ -6312,62 +5543,33 @@
   },
   {
     "commendation": "Evil Eye Blinded",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "In the Right Hands",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "May Contain Evil",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Dark Dealings",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Curse Averted",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "A Dark Collection",
-    "rewards": "+50 \n Rewards the Relic Collector Title.",
+    "rewards": "+50 Doubloons Rewards the Relic Collector Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Relic Collector",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Relic_Collector"
@@ -6376,72 +5578,38 @@
   },
   {
     "commendation": "Disrupting the Darkness",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Ritual is Broken",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Dark Magics Dispelled",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Relics Returned",
-    "rewards": "+15",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+15 Doubloons",
+    "links": []
   },
   {
     "commendation": "Cursed Cargo",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Reaping Rewards",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Risking It All",
-    "rewards": "+50 \n Rewards the Death Defier Title.",
+    "rewards": "+50 Doubloons Rewards the Death Defier Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Death Defier",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Death_Defier"
@@ -6450,102 +5618,53 @@
   },
   {
     "commendation": "Wild Treasures Repeat Business",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Three Paces East Repeat Business",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "The North Star Repeat Business",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Stephen's Spoils Repeat Business",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Wild Treasures Fencing",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Three Paces East Fencing",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "North Star Fencing",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Stephen's Spoils Fencing",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Sketchy Stranger",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Bone Haul Bearer",
-    "rewards": "+50 \n Rewards the Bone Haul Bearer Title.",
+    "rewards": "+50 Doubloons Rewards the Bone Haul Bearer Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Bone Haul Bearer",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Bone_Haul_Bearer"
@@ -6554,12 +5673,8 @@
   },
   {
     "commendation": "Bone Haul Bandit",
-    "rewards": "+50 \n Rewards the Bone Haul Bandit Title.",
+    "rewards": "+50 Doubloons Rewards the Bone Haul Bandit Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Bone Haul Bandit",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Bone_Haul_Bandit"
@@ -6568,122 +5683,63 @@
   },
   {
     "commendation": "Grave Digger",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Money For Old Bones",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Wild Dash",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Three Paces Race",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Chasing the North Star",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Stephen's Spoils Sprint",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Plenty of Speed",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Fast and Finest",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Bazaar Boost",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Racing Traders",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Lost and Scoundrel",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Merchant of Death",
-    "rewards": "+25 \n Rewards the Merchant of Death Title.",
+    "rewards": "+25 Doubloons Rewards the Merchant of Death Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Merchant of Death",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Merchant_of_Death"
@@ -6692,42 +5748,23 @@
   },
   {
     "commendation": "Ritual Skull Retrieved in The Wilds",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ritual Skull Retrieved in The Ancient Isles",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ritual Skull Retrieved in The Shores of Plenty",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ritual Skulls Retrieved from Across the Sea of Thieves",
-    "rewards": "+25 \n Rewards the Skull Keeper Title.",
+    "rewards": "+25 Doubloons Rewards the Skull Keeper Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Skull Keeper",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Skull_Keeper"
@@ -6736,82 +5773,43 @@
   },
   {
     "commendation": "Legendary Ritual Skulls Retrieved",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Vigilant Rogue",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ashen Key Seeker of The Shores of Plenty",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ashen Key Seeker of The Ancient Isles",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ashen Key Seeker of The Wilds",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ashen Chest Seeker",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Duke Departed",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "“Ashen Seeker” Title",
-    "rewards": "+50 \n Rewards the Ashen Seeker Title.",
+    "rewards": "+50 Doubloons Rewards the Ashen Seeker Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Ashen Seeker",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Ashen_Seeker"
@@ -6820,22 +5818,13 @@
   },
   {
     "commendation": "Humble Giving",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Humble Giving for Many",
-    "rewards": "+10 \n Unlocks the Frostbite Bucket, Frostbite Compass, Frostbite Pocket Watch, Frostbite Spyglass, and Frostbite Flag for purchase.",
+    "rewards": "+10 Doubloons Unlocks the Frostbite Bucket, Frostbite Compass, Frostbite Pocket Watch, Frostbite Spyglass, and Frostbite Flag for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Frostbite Bucket",
         "href": "https://seaofthieves.wiki.gg/wiki/Frostbite_Bucket"
@@ -6860,12 +5849,8 @@
   },
   {
     "commendation": "Humble Giving for All",
-    "rewards": "+15 \n Unlocks the Frostbite Banjo, Frostbite Concertina, Frostbite Drum, Frostbite Hurdy-Gurdy, Frostbite Figurehead, and Frostbite Sails for purchase.",
+    "rewards": "+15 Doubloons Unlocks the Frostbite Banjo, Frostbite Concertina, Frostbite Drum, Frostbite Hurdy-Gurdy, Frostbite Figurehead, and Frostbite Sails for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Frostbite Banjo",
         "href": "https://seaofthieves.wiki.gg/wiki/Frostbite_Banjo"
@@ -6894,22 +5879,13 @@
   },
   {
     "commendation": "Generous Giving",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Generous Giving for Many",
-    "rewards": "+20 \n Unlocks the Frostbite Lantern, Frostbite Shovel, Frostbite Speaking Trumpet, Frostbite Tankard, Eastern Winds Jade Set equipment, instruments, and Eye of Reach for purchase.",
+    "rewards": "+20 Doubloons Unlocks the Frostbite Lantern, Frostbite Shovel, Frostbite Speaking Trumpet, Frostbite Tankard, Eastern Winds Jade Set equipment, instruments, and Eye of Reach for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Frostbite Lantern",
         "href": "https://seaofthieves.wiki.gg/wiki/Frostbite_Lantern"
@@ -6938,12 +5914,8 @@
   },
   {
     "commendation": "Generous Giving for All",
-    "rewards": "+30 \n Unlocks the Frostbite Weapons, Frostbite Capstan, Frostbite Hull, and Frostbite Wheel for purchase.",
+    "rewards": "+30 Doubloons Unlocks the Frostbite Weapons, Frostbite Capstan, Frostbite Hull, and Frostbite Wheel for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Frostbite Weapons",
         "href": "https://seaofthieves.wiki.gg/wiki/Frostbite_Set#Weapons"
@@ -6964,243 +5936,123 @@
   },
   {
     "commendation": "Charitable Giving",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Charitable Giving for Many",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Charitable Giving for All",
-    "rewards": "+15",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+15 Doubloons",
+    "links": []
   },
   {
     "commendation": "Bountiful Giving",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Bountiful Giving for Many",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Bountiful Giving for All",
-    "rewards": "+30",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+30 Doubloons",
+    "links": []
   },
   {
     "commendation": "Gift Seeker of The Shores of Plenty",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Gift Seeker of The Wilds",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Gift Seeker of The Ancient Isles",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Gift Seeker of the Sea of Thieves",
-    "rewards": "+15",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+15 Doubloons",
+    "links": []
   },
   {
     "commendation": "Dedicated Gift Seeker",
-    "rewards": "+50",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+50 Doubloons",
+    "links": []
   },
   {
     "commendation": "Reaper's Tribute of Treasure",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Reaper's Tribute of Skulls",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Reaper's Tribute of Silk",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Reaper's Tribute of Legends",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Reaper's Tribute of Bounty",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Great Reaper's Tribute of Bounty",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Grand Reaper's Tribute of Bounty",
-    "rewards": "+50",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+50 Doubloons",
+    "links": []
   },
   {
     "commendation": "Tribute to the Darkness",
-    "rewards": "+50",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+50 Doubloons",
+    "links": []
   },
   {
     "commendation": "Raging Battle of The Shores of Plenty",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Raging Battle of The Ancient Isles",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Raging Battle of The Wilds",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Raging Battle of The Sea of Thieves",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legendary Raging Battle",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Running with Legends at Thieves' Haven",
@@ -7209,7 +6061,7 @@
   },
   {
     "commendation": "Ruling with Legends at Thieves' Haven",
-    "rewards": "Previously rewarded the Legend of Thieves' Haven Title\nPreviously unlocked the Legendary Treasure Seeker Costume for purchase.",
+    "rewards": "Previously rewarded the Legend of Thieves' Haven Title  Previously unlocked the Legendary Treasure Seeker Costume for purchase.",
     "links": [
       {
         "text": "Legend of Thieves' Haven",
@@ -7223,192 +6075,98 @@
   },
   {
     "commendation": "Sent Crying Back to the Sea",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Sent Screaming Back to the Sea",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Sent Wailing Back to the Sea",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Cooling Burning Hearts",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Dousing Burning Hearts",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Snuffing Burning Hearts",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Cursed Bones Laid to Rest",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Cursed Bones Exorcised",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Cursed Bones Buried Deep",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Lightning-struck Skeletons Discharged",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Lightning-struck Skeletons Earthed",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Lightning-struck Skeletons Grounded",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Envenomed and Ensnared",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Envenomed and Ended",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Envenomed and Entombed",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "One More Fight",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "One More Battle",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "One More War",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "A Spectrum of Shadows",
-    "rewards": "+10 \n Unlocks Lantern of the Damned for purchase.",
+    "rewards": "+10 Doubloons Unlocks Lantern of the Damned for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Lantern of the Damned",
         "href": "https://seaofthieves.wiki.gg/wiki/Lantern_of_the_Damned"
@@ -7417,12 +6175,8 @@
   },
   {
     "commendation": "Summoning the Damned",
-    "rewards": "+5 \n Unlocks Facepaint of the Damned for purchase.",
+    "rewards": "+5 Doubloons Unlocks Facepaint of the Damned for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Facepaint of the Damned",
         "href": "https://seaofthieves.wiki.gg/wiki/Facepaint_of_the_Damned"
@@ -7431,22 +6185,13 @@
   },
   {
     "commendation": "Defeating the Damned",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Banishing the Damned",
-    "rewards": "+10 \n Unlocks Jacket of the Damned, Wicked Web Tankard, Wicked Web Blunderbuss, Wicked Web Cannons, and the Wicked Web Figurehead for purchase.",
+    "rewards": "+10 Doubloons Unlocks Jacket of the Damned, Wicked Web Tankard, Wicked Web Blunderbuss, Wicked Web Cannons, and the Wicked Web Figurehead for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Jacket of the Damned",
         "href": "https://seaofthieves.wiki.gg/wiki/Jacket_of_the_Damned"
@@ -7471,12 +6216,8 @@
   },
   {
     "commendation": "Vanquishing the Damned",
-    "rewards": "+25 \n Unlocks the Soulflame Set Lantern, Weapon, and Crew Costumes for purchase at the Athena's Fortune Shop and the Wicked Web Collector's Figurehead for purchase at Outpost Shipwright Shops.",
+    "rewards": "+25 Doubloons Unlocks the Soulflame Set Lantern, Weapon, and Crew Costumes for purchase at the Athena's Fortune Shop and the Wicked Web Collector's Figurehead for purchase at Outpost Shipwright Shops.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Soulflame Set",
         "href": "https://seaofthieves.wiki.gg/wiki/Soulflame_Set"
@@ -7497,12 +6238,8 @@
   },
   {
     "commendation": "Conquering the Damned",
-    "rewards": "+50 \n Rewards the Raider of the Damned Title.",
+    "rewards": "+50 Doubloons Rewards the Raider of the Damned Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Raider of the Damned",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Raider_of_the_Damned"
@@ -7511,32 +6248,18 @@
   },
   {
     "commendation": "A Living History",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legends of the Sea I",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legends of the Sea II",
-    "rewards": "+5 \n Unlocks Sunshine Parrot Set items for purchase.",
+    "rewards": "+5 Doubloons Unlocks Sunshine Parrot Set items for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Sunshine Parrot Set",
         "href": "https://seaofthieves.wiki.gg/wiki/Sunshine_Parrot_Set"
@@ -7545,152 +6268,78 @@
   },
   {
     "commendation": "Legends of the Sea III",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legends of the Sea IV",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legends of the Sea V",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legends of the Sea VI",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legends of the Sea VII",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legends of the Sea VIII",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legends of the Sea IX",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legends of the Sea X",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Umbra's Observations",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Fox in the Snake",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Missing, Presumed Pirating",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Self-Promoting Pistol Pirate",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Join the Club",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Nice to be Wanted",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Sea's Most Wanted",
-    "rewards": "+25 \n Unlocks The Sea's Most Wanted Tattoo Set for purchase in Umbra's Tattoo Outlet.",
+    "rewards": "+25 Doubloons Unlocks The Sea's Most Wanted Tattoo Set for purchase in Umbra's Tattoo Outlet.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "The Sea's Most Wanted Tattoo Set",
         "href": "https://seaofthieves.wiki.gg/wiki/The_Sea%27s_Most_Wanted_Tattoo_Set"
@@ -7703,62 +6352,33 @@
   },
   {
     "commendation": "Sleeping with the Fishes",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Aim High",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "...And Not a Drop Spilled.",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Not All Falcons Fly",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Run Aground",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Daredevils",
-    "rewards": "+25 \n Unlocks The Daredevils Tattoo Set for purchase in Umbra's Tattoo Outlet.",
+    "rewards": "+25 Doubloons Unlocks The Daredevils Tattoo Set for purchase in Umbra's Tattoo Outlet.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "The Daredevils Tattoo Set",
         "href": "https://seaofthieves.wiki.gg/wiki/The_Daredevils_Tattoo_Set"
@@ -7771,62 +6391,33 @@
   },
   {
     "commendation": "Not Just For Sweeping",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Bound by a Book",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Snake Charmer",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Dog Days",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Pirate Port Pals",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Loveable Rogues",
-    "rewards": "+25 \n Unlocks The Loveable Rogues Tattoo Set for purchase in Umbra's Tattoo Outlet.",
+    "rewards": "+25 Doubloons Unlocks The Loveable Rogues Tattoo Set for purchase in Umbra's Tattoo Outlet.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "The Loveable Rogues Tattoo Set",
         "href": "https://seaofthieves.wiki.gg/wiki/The_Loveable_Rogues_Tattoo_Set"
@@ -7839,62 +6430,33 @@
   },
   {
     "commendation": "Death by Banana",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "ZZ Marks the Spot",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Going Bananas",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Famously Frugal",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "A Hairy Legacy",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Insatiable",
-    "rewards": "+25 \n Unlocks The Insatiable Tattoo Set for purchase in Umbra's Tattoo Outlet.",
+    "rewards": "+25 Doubloons Unlocks The Insatiable Tattoo Set for purchase in Umbra's Tattoo Outlet.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "The Insatiable Tattoo Set",
         "href": "https://seaofthieves.wiki.gg/wiki/The_Insatiable_Tattoo_Set"
@@ -7907,62 +6469,33 @@
   },
   {
     "commendation": "Wide of the Mark",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Precision Pirating",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legendary Larceny",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Buckets of Fun",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "A Venomous Attack",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Swashbucklers",
-    "rewards": "+25 \n Unlocks The Swashbucklers Tattoo Set for purchase in Umbra's Tattoo Outlet.",
+    "rewards": "+25 Doubloons Unlocks The Swashbucklers Tattoo Set for purchase in Umbra's Tattoo Outlet.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "The Swashbucklers Tattoo Set",
         "href": "https://seaofthieves.wiki.gg/wiki/The_Swashbucklers_Tattoo_Set"
@@ -7975,62 +6508,33 @@
   },
   {
     "commendation": "A Musical Family",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Still Life",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Dressed to Impress",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Through The Eyes of a Child",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Pirates in Portrait",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Artistic Souls",
-    "rewards": "+25 \n Unlocks the Maestro Set for purchase and The Artistic Souls Tattoo Set for purchase in Umbra's Tattoo Outlet.",
+    "rewards": "+25 Doubloons Unlocks the Maestro Set for purchase and The Artistic Souls Tattoo Set for purchase in Umbra's Tattoo Outlet.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Maestro Set",
         "href": "https://seaofthieves.wiki.gg/wiki/Maestro_Set"
@@ -8047,62 +6551,33 @@
   },
   {
     "commendation": "Merrick Roll",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Killer Qualifications",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Dances with Chickens",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Familial Resemblance",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Purply Pretty",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Piratical Jokers",
-    "rewards": "+25 \n Unlocks The Piratical Jokers Tattoo Set for purchase in Umbra's Tattoo Outlet.",
+    "rewards": "+25 Doubloons Unlocks The Piratical Jokers Tattoo Set for purchase in Umbra's Tattoo Outlet.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "The Piratical Jokers Tattoo Set",
         "href": "https://seaofthieves.wiki.gg/wiki/The_Piratical_Jokers_Tattoo_Set"
@@ -8115,62 +6590,33 @@
   },
   {
     "commendation": "One Cross Pirate",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Points of Contention",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Helping Hands",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "See No Evil, Hear No Evil, Speak No Evil",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Scruffy Scribe",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Pirate Scribes",
-    "rewards": "+25 \n Unlocks The Gift Givers Tattoo Set for purchase in Umbra's Tattoo Outlet.",
+    "rewards": "+25 Doubloons Unlocks The Gift Givers Tattoo Set for purchase in Umbra's Tattoo Outlet.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "The Gift Givers Tattoo Set",
         "href": "https://seaofthieves.wiki.gg/wiki/The_Gift_Givers_Tattoo_Set"
@@ -8183,122 +6629,63 @@
   },
   {
     "commendation": "Delicious Delivery",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "May Contain Boom",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Big Love in a Small Package",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Putting the Ship in Friendship",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Charitable Pirating",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Gift Givers",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Who's a Good Boy?",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Fool's Gold",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Nesting Spot",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Hallowed Ground",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Pirate Leg End",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Early Settlers",
-    "rewards": "+25 \n Unlocks The Early Settlers Tattoo Set for purchase in Umbra's Tattoo Outlet.",
+    "rewards": "+25 Doubloons Unlocks The Early Settlers Tattoo Set for purchase in Umbra's Tattoo Outlet.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "The Early Settlers Tattoo Set",
         "href": "https://seaofthieves.wiki.gg/wiki/The_Early_Settlers_Tattoo_Set"
@@ -8311,12 +6698,8 @@
   },
   {
     "commendation": "Chronicler of Legend",
-    "rewards": "+50 \n Rewards the Chronicler of Legend Title.\n Unlocks Umbra's Chronicle Tattoo Set for purchase in Umbra's Tattoo Outlet.",
+    "rewards": "+50 Doubloons Rewards the Chronicler of Legend Title. Unlocks Umbra's Chronicle Tattoo Set for purchase in Umbra's Tattoo Outlet.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Chronicler of Legend",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Chronicler_of_Legend"
@@ -8463,152 +6846,78 @@
   },
   {
     "commendation": "Remembering the Fallen",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ashes to Ashes",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Guardian's Grave",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ashen Reaping",
-    "rewards": "+30",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+30 Doubloons",
+    "links": []
   },
   {
     "commendation": "Key Victory",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Blaster",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master of Masters",
-    "rewards": "+30",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+30 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ash Money",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Key Cash",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ashen Haul",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ashen Trove",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ashen Hoard",
-    "rewards": "+30",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+30 Doubloons",
+    "links": []
   },
   {
     "commendation": "Tome Raider",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Key of Thieves",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Tome of Curses I",
-    "rewards": "+15 \n Unlocks Hat of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Hat of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Hat of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Hat_of_the_Ashen_Dragon"
@@ -8617,12 +6926,8 @@
   },
   {
     "commendation": "Tome of Curses II",
-    "rewards": "+15 \n Unlocks Jacket of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Jacket of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Jacket of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Jacket_of_the_Ashen_Dragon"
@@ -8631,12 +6936,8 @@
   },
   {
     "commendation": "Tome of Curses III",
-    "rewards": "+15 \n Unlocks Dress of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Dress of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Dress of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Dress_of_the_Ashen_Dragon"
@@ -8645,12 +6946,8 @@
   },
   {
     "commendation": "Tome of Curses IV",
-    "rewards": "+15 \n Unlocks Hook of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Hook of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Hook of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Hook_of_the_Ashen_Dragon"
@@ -8659,12 +6956,8 @@
   },
   {
     "commendation": "Tome of Curses V",
-    "rewards": "+15 \n Unlocks Pegleg of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Pegleg of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Pegleg of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Pegleg_of_the_Ashen_Dragon"
@@ -8673,12 +6966,8 @@
   },
   {
     "commendation": "Tome of Curses Collector",
-    "rewards": "+50 \n Rewards the Scholar of Curses Title.\n Unlocks the Hair of the Ashen Dragon, Cutlass of the Ashen Dragon, Heavy Sword of the Ashen Dragon and the Rapier of the Ashen Dragon for purchase.",
+    "rewards": "+50 Doubloons Rewards the Scholar of Curses Title. Unlocks the Hair of the Ashen Dragon, Cutlass of the Ashen Dragon, Heavy Sword of the Ashen Dragon and the Rapier of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Scholar of Curses",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Scholar_of_Curses"
@@ -8703,102 +6992,53 @@
   },
   {
     "commendation": "Helmsman Hunted",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Mutiny Crushed",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Tied to the Wheel",
-    "rewards": "+30",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+30 Doubloons",
+    "links": []
   },
   {
     "commendation": "Scoundrel Slain",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Two Faces, One Fate",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Facing the Inevitable",
-    "rewards": "+30",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+30 Doubloons",
+    "links": []
   },
   {
     "commendation": "Duchess Destroyed",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Duchess of Death",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "A Noble Defeat",
-    "rewards": "+30",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+30 Doubloons",
+    "links": []
   },
   {
     "commendation": "Tome of Power I",
-    "rewards": "+15 \n Unlocks Spyglass of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Spyglass of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Spyglass of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Spyglass_of_the_Ashen_Dragon"
@@ -8807,12 +7047,8 @@
   },
   {
     "commendation": "Tome of Power II",
-    "rewards": "+15 \n Unlocks Compass of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Compass of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Compass of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Compass_of_the_Ashen_Dragon"
@@ -8821,12 +7057,8 @@
   },
   {
     "commendation": "Tome of Power III",
-    "rewards": "+15 \n Unlocks Shovel of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Shovel of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Shovel of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Shovel_of_the_Ashen_Dragon"
@@ -8835,12 +7067,8 @@
   },
   {
     "commendation": "Tome of Power IV",
-    "rewards": "+15 \n Unlocks Bucket of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Bucket of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Bucket of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Bucket_of_the_Ashen_Dragon"
@@ -8849,12 +7077,8 @@
   },
   {
     "commendation": "Tome of Power V",
-    "rewards": "+15 \n Unlocks Fishing Rod of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Fishing Rod of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Fishing Rod of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Fishing_Rod_of_the_Ashen_Dragon"
@@ -8863,12 +7087,8 @@
   },
   {
     "commendation": "Tome of Power Collector",
-    "rewards": "+50 \n Rewards the Scholar of Power Title.\n Unlocks Pistol of the Ashen Dragon for purchase.",
+    "rewards": "+50 Doubloons Rewards the Scholar of Power Title. Unlocks Pistol of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Scholar of Power",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Scholar_of_Power"
@@ -8881,12 +7101,8 @@
   },
   {
     "commendation": "Tome of Fire I",
-    "rewards": "+15 \n Unlocks Drum of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Drum of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Drum of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Drum_of_the_Ashen_Dragon"
@@ -8895,12 +7111,8 @@
   },
   {
     "commendation": "Tome of Fire II",
-    "rewards": "+15 \n Unlocks Hurdy-Gurdy of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Hurdy-Gurdy of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Hurdy-Gurdy of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Hurdy-Gurdy_of_the_Ashen_Dragon"
@@ -8909,12 +7121,8 @@
   },
   {
     "commendation": "Tome of Fire III",
-    "rewards": "+15 \n Unlocks Concertina of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Concertina of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Concertina of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Concertina_of_the_Ashen_Dragon"
@@ -8923,12 +7131,8 @@
   },
   {
     "commendation": "Tome of Fire IV",
-    "rewards": "+15 \n Unlocks Banjo of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Banjo of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Banjo of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Banjo_of_the_Ashen_Dragon"
@@ -8937,12 +7141,8 @@
   },
   {
     "commendation": "Tome of Fire V",
-    "rewards": "+15 \n Unlocks Speaking Trumpet of the Ashen Dragon for purchase.",
+    "rewards": "+15 Doubloons Unlocks Speaking Trumpet of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Speaking Trumpet of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Speaking_Trumpet_of_the_Ashen_Dragon"
@@ -8951,12 +7151,8 @@
   },
   {
     "commendation": "Tome of Fire Collector",
-    "rewards": "+50 \n Rewards the Scholar of Fire Title.\n Unlocks Blunderbuss of the Ashen Dragon for purchase.",
+    "rewards": "+50 Doubloons Rewards the Scholar of Fire Title. Unlocks Blunderbuss of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Scholar of Fire",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Scholar_of_Fire"
@@ -8969,12 +7165,8 @@
   },
   {
     "commendation": "Tome of Resurrection I",
-    "rewards": "+10 \n Unlocks Flag of the Ashen Dragon for purchase.",
+    "rewards": "+10 Doubloons Unlocks Flag of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Flag of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Flag_of_the_Ashen_Dragon"
@@ -8983,12 +7175,8 @@
   },
   {
     "commendation": "Tome of Resurrection II",
-    "rewards": "+10 \n Unlocks Cannons of the Ashen Dragon for purchase.",
+    "rewards": "+10 Doubloons Unlocks Cannons of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Cannons of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Cannons_of_the_Ashen_Dragon"
@@ -8997,12 +7185,8 @@
   },
   {
     "commendation": "Tome of Resurrection III",
-    "rewards": "+10 \n Unlocks Capstan of the Ashen Dragon for purchase.",
+    "rewards": "+10 Doubloons Unlocks Capstan of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Capstan of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Capstan_of_the_Ashen_Dragon"
@@ -9011,12 +7195,8 @@
   },
   {
     "commendation": "Tome of Resurrection IV",
-    "rewards": "+10 \n Unlocks Wheel of the Ashen Dragon for purchase.",
+    "rewards": "+10 Doubloons Unlocks Wheel of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Wheel of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Wheel_of_the_Ashen_Dragon"
@@ -9025,12 +7205,8 @@
   },
   {
     "commendation": "Tome of Resurrection V",
-    "rewards": "+10 \n Unlocks Figurehead of the Ashen Dragon for purchase.",
+    "rewards": "+10 Doubloons Unlocks Figurehead of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Figurehead of the Ashen Dragon",
         "href": "https://seaofthieves.wiki.gg/wiki/Figurehead_of_the_Ashen_Dragon"
@@ -9039,12 +7215,8 @@
   },
   {
     "commendation": "Tome of Resurrection Collector",
-    "rewards": "+50 \n Rewards the Scholar of Resurrection Title.\n Unlocks Eye of Reach of the Ashen Dragon for purchase.",
+    "rewards": "+50 Doubloons Rewards the Scholar of Resurrection Title. Unlocks Eye of Reach of the Ashen Dragon for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Scholar of Resurrection",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Scholar_of_Resurrection"
@@ -9057,182 +7229,93 @@
   },
   {
     "commendation": "Charred Bone Skeletons",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Raging Charred Bone Skeletons",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Scorched Skeletons",
-    "rewards": "+50",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+50 Doubloons",
+    "links": []
   },
   {
     "commendation": "Fried Plant Skeletons",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Raging Fried Plant Skeletons",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Melted Gold Skeletons",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Raging Melted Gold Skeletons",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Torched Shadow Skeletons",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Raging Torched Shadow Skeletons",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Fortress Inferno",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Raging Fortress Inferno",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Fire Sale",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Blazing Fire Sale",
-    "rewards": "+15",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+15 Doubloons",
+    "links": []
   },
   {
     "commendation": "Raging Fire Sale",
-    "rewards": "+25",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+25 Doubloons",
+    "links": []
   },
   {
     "commendation": "Hot Goods",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Blazing Hot Goods",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Raging Hot Goods",
-    "rewards": "+30",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+30 Doubloons",
+    "links": []
   },
   {
     "commendation": "Hunter of Captain Grimm",
-    "rewards": "+20 \n Unlocks Grimm’s Bane Tattoo and Scorched Forsaken Ashes Cutlass for purchase.",
+    "rewards": "+20 Doubloons Unlocks Grimm’s Bane Tattoo and Scorched Forsaken Ashes Cutlass for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Grimm’s Bane Tattoo",
         "href": "https://seaofthieves.wiki.gg/wiki/Grimm%E2%80%99s_Bane_Tattoo"
@@ -9245,12 +7328,8 @@
   },
   {
     "commendation": "Hunter of Red Ruth",
-    "rewards": "+20 \n Unlocks Ruth’s Bane Tattoo and Scorched Forsaken Ashes Flintlock for purchase.",
+    "rewards": "+20 Doubloons Unlocks Ruth’s Bane Tattoo and Scorched Forsaken Ashes Flintlock for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Ruth’s Bane Tattoo",
         "href": "https://seaofthieves.wiki.gg/wiki/Ruth%E2%80%99s_Bane_Tattoo"
@@ -9263,12 +7342,8 @@
   },
   {
     "commendation": "Hunter of Old Horatio",
-    "rewards": "+20 \n Unlocks Horatio’s Bane Tattoo and Scorched Forsaken Ashes Blunderbuss for purchase.",
+    "rewards": "+20 Doubloons Unlocks Horatio’s Bane Tattoo and Scorched Forsaken Ashes Blunderbuss for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Horatio’s Bane Tattoo",
         "href": "https://seaofthieves.wiki.gg/wiki/Horatio%E2%80%99s_Bane_Tattoo"
@@ -9281,12 +7356,8 @@
   },
   {
     "commendation": "Hunter of Warden Chi",
-    "rewards": "+20 \n Unlocks Chi’s Bane Tattoo and Scorched Forsaken Ashes Eye of Reach for purchase.",
+    "rewards": "+20 Doubloons Unlocks Chi’s Bane Tattoo and Scorched Forsaken Ashes Eye of Reach for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Chi’s Bane Tattoo",
         "href": "https://seaofthieves.wiki.gg/wiki/Chi%E2%80%99s_Bane_Tattoo"
@@ -9299,12 +7370,8 @@
   },
   {
     "commendation": "Banisher of the Flame",
-    "rewards": "+30 \n Rewards the Banisher of the Flame Title.",
+    "rewards": "+30 Doubloons Rewards the Banisher of the Flame Title.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Banisher of the Flame",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Banisher_of_the_Flame"
@@ -9313,12 +7380,8 @@
   },
   {
     "commendation": "Hunter of the Ashen Winds",
-    "rewards": "+30 \n Unlocks the Sails of the Ashen Winds and Scorched Forsaken Ashes Instruments for purchase.",
+    "rewards": "+30 Doubloons Unlocks the Sails of the Ashen Winds and Scorched Forsaken Ashes Instruments for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Sails of the Ashen Winds",
         "href": "https://seaofthieves.wiki.gg/wiki/Sails_of_the_Ashen_Winds"
@@ -9331,32 +7394,18 @@
   },
   {
     "commendation": "Skull of Fire",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ashen Bones",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Captain of Ashen Bones",
-    "rewards": "+10 \n Unlocks the Scorched Forsaken Ashes Tools for purchase.",
+    "rewards": "+10 Doubloons Unlocks the Scorched Forsaken Ashes Tools for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Scorched Forsaken Ashes Tools",
         "href": "https://seaofthieves.wiki.gg/wiki/Scorched_Forsaken_Ashes_Set#Equipment"
@@ -9365,12 +7414,8 @@
   },
   {
     "commendation": "Warsmith of the Flame",
-    "rewards": "+20 \n Rewards the Warsmith of the Flame Title.\n Unlocks the Frostbite Cannon and Scorched Forsaken Ashes Ship Components for purchase.",
+    "rewards": "+20 Doubloons Rewards the Warsmith of the Flame Title. Unlocks the Frostbite Cannon and Scorched Forsaken Ashes Ship Components for purchase.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Warsmith of the Flame",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Warsmith_of_the_Flame"
@@ -9619,7 +7664,7 @@
   },
   {
     "commendation": "Seeker of Pirate Plunder",
-    "rewards": "Rewards the Seeker of Lost Maps Title.\n Unlocks Party Boat Wheel for purchase and the Seeker of Pirate Plunder achievement.",
+    "rewards": "Rewards the Seeker of Lost Maps Title. Unlocks Party Boat Wheel for purchase and the Seeker of Pirate Plunder achievement.",
     "links": [
       {
         "text": "Seeker of Lost Maps",
@@ -9968,7 +8013,7 @@
   },
   {
     "commendation": "Legend of Buried Treasures",
-    "rewards": "Rewards the Beholder of Buried Treasures Title.\n Unlocks the Beholder of Buried Treasures achievement.",
+    "rewards": "Rewards the Beholder of Buried Treasures Title. Unlocks the Beholder of Buried Treasures achievement.",
     "links": [
       {
         "text": "Beholder of Buried Treasures",
@@ -9982,13 +8027,8 @@
   },
   {
     "commendation": "Scoping the Joints",
-    "rewards": "+30",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+30 Doubloons",
+    "links": []
   },
   {
     "commendation": "From Whence They Came",
@@ -10002,22 +8042,13 @@
   },
   {
     "commendation": "Spectral Slayer",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "What's Yours Is Mine",
-    "rewards": "+20 \n Unlocks the What's Yours Is Mine achievement.",
+    "rewards": "+20 Doubloons Unlocks the What's Yours Is Mine achievement.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "What's Yours Is Mine",
         "href": "https://seaofthieves.wiki.gg/wiki/Achievements#What's_Yours_Is_Mine"
@@ -10026,12 +8057,8 @@
   },
   {
     "commendation": "Repeat Offender",
-    "rewards": "+50 \n Required to unlock the Treasure Chest Disguise for purchase, in conjunction with Poisonous Pirate.",
+    "rewards": "+50 Doubloons Required to unlock the Treasure Chest Disguise for purchase, in conjunction with Poisonous Pirate.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Treasure Chest Disguise",
         "href": "https://seaofthieves.wiki.gg/wiki/Treasure_Chest_Disguise"
@@ -10044,13 +8071,8 @@
   },
   {
     "commendation": "Light Fingered",
-    "rewards": "+20",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+20 Doubloons",
+    "links": []
   },
   {
     "commendation": "Master Burglar",
@@ -10064,53 +8086,28 @@
   },
   {
     "commendation": "Faster Chef",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Fort-y Winks",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Get Off My Lawn!",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "The Fallen Sea Dog",
-    "rewards": "+10",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+10 Doubloons",
+    "links": []
   },
   {
     "commendation": "Hoarder's Gold Champion",
-    "rewards": "+50",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+50 Doubloons",
+    "links": []
   },
   {
     "commendation": "Fortune's Favour",
@@ -10326,63 +8323,33 @@
   },
   {
     "commendation": "Scouting Ahead",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Fire on the Horizon",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Chasing for Gold",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "A Lucky Find",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Regal Ride",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Best in Show",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Legend of the Oars",
@@ -10631,7 +8598,7 @@
   },
   {
     "commendation": "Celebrated Guild Legend",
-    "rewards": "Rewards the Celebrated Guild Legend Title.\n Unlocks the Unbroken Bonds Figurehead for purchase",
+    "rewards": "Rewards the Celebrated Guild Legend Title. Unlocks the Unbroken Bonds Figurehead for purchase",
     "links": [
       {
         "text": "Celebrated Guild Legend",
@@ -10969,7 +8936,7 @@
   },
   {
     "commendation": "The War Chest Champion",
-    "rewards": "Rewards the War Chest Champion Title.\n Unlocks the Royal Sovereign Double Barrel Pistol and Royal Sovereign Throwing Knives for purchase.",
+    "rewards": "Rewards the War Chest Champion Title. Unlocks the Royal Sovereign Double Barrel Pistol and Royal Sovereign Throwing Knives for purchase.",
     "links": [
       {
         "text": "War Chest Champion",
@@ -11287,23 +9254,13 @@
   },
   {
     "commendation": "Starry Secrets",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Fiery Diary",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Friendship and Freedom",
@@ -11407,7 +9364,7 @@
   },
   {
     "commendation": "Mimic Me Mimic You",
-    "rewards": "Rewards the Part of the Hive Title.\n Unlocks the Lucky Hand Blowpipe for purchase.",
+    "rewards": "Rewards the Part of the Hive Title. Unlocks the Lucky Hand Blowpipe for purchase.",
     "links": [
       {
         "text": "Part of the Hive",
@@ -11731,7 +9688,7 @@
   },
   {
     "commendation": "Pirate of True Mischief",
-    "rewards": "Rewards the Pirate of True Mischief Title.\n Unlocks the Monstrous Mask of Mayhem for purchase.",
+    "rewards": "Rewards the Pirate of True Mischief Title. Unlocks the Monstrous Mask of Mayhem for purchase.",
     "links": [
       {
         "text": "Pirate of True Mischief",
@@ -11745,7 +9702,7 @@
   },
   {
     "commendation": "Hunter of the Feared Redmaw",
-    "rewards": "Rewards the Hunter of the Feared Redmaw Title.\n Unlocks the Eternal Hunt Cannons for purchase.",
+    "rewards": "Rewards the Hunter of the Feared Redmaw Title. Unlocks the Eternal Hunt Cannons for purchase.",
     "links": [
       {
         "text": "Hunter of the Feared Redmaw",
@@ -11789,7 +9746,7 @@
   },
   {
     "commendation": "Hunter of the Barnacled Dread",
-    "rewards": "Rewards the Hunter of the Barnacled Dread Title.\n Unlocks the Eternal Hunt Capstan for purchase.",
+    "rewards": "Rewards the Hunter of the Barnacled Dread Title. Unlocks the Eternal Hunt Capstan for purchase.",
     "links": [
       {
         "text": "Hunter of the Barnacled Dread",
@@ -11908,7 +9865,7 @@
   },
   {
     "commendation": "Master of Impaling Impact",
-    "rewards": "Rewards the Master of Impaling Impact Title.\n Unlocks the Jagged Jaws Throwing Knives for purchase.",
+    "rewards": "Rewards the Master of Impaling Impact Title. Unlocks the Jagged Jaws Throwing Knives for purchase.",
     "links": [
       {
         "text": "Master of Impaling Impact",
@@ -12000,12 +9957,8 @@
   },
   {
     "commendation": "Rusty Rescuer",
-    "rewards": "+5 \n Unlocks the Reaper Hook and Reaper Pegleg for purchase, alongside their Reaper's Bones reputation requirements.",
+    "rewards": "+5 Doubloons Unlocks the Reaper Hook and Reaper Pegleg for purchase, alongside their Reaper's Bones reputation requirements.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Reaper Hook",
         "href": "https://seaofthieves.wiki.gg/wiki/Reaper_Hook"
@@ -12022,43 +9975,23 @@
   },
   {
     "commendation": "Wild Order",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Ancient Order",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Plentiful Order",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Roaring Order",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Explosive Surprise",
@@ -12263,23 +10196,13 @@
   },
   {
     "commendation": "Rowing Devotion",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Order of Paddle and Blade",
-    "rewards": "+5",
-    "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      }
-    ]
+    "rewards": "+5 Doubloons",
+    "links": []
   },
   {
     "commendation": "Devious Dinghy",
@@ -12932,24 +10855,8 @@
   },
   {
     "commendation": "Tale Whisperer",
-    "rewards": "30  at Grade I, 5,000  at Grade II, 30  at Grade III, 5,000  at Grade IV, Tale Whisperer at Grade V.",
+    "rewards": "30 Doubloons at Grade I, 5,000 Gold at Grade II, 30 Doubloons at Grade III, 5,000 Gold at Grade IV, Tale Whisperer at Grade V.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Gold"
-      },
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Gold"
-      },
       {
         "text": "Tale Whisperer",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Tale_Whisperer"
@@ -12958,16 +10865,8 @@
   },
   {
     "commendation": "Pirate Storyteller",
-    "rewards": "5,000  at Grade I, 30  at Grade II, Pirate Storyteller Title at Grade III.",
+    "rewards": "5,000 Gold at Grade I, 30 Doubloons at Grade II, Pirate Storyteller Title at Grade III.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Gold"
-      },
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Pirate Storyteller",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Pirate_Storyteller"
@@ -12976,12 +10875,8 @@
   },
   {
     "commendation": "Seeker of Tales",
-    "rewards": "30  at Grade I, Seeker of Tales Title at Grade II.",
+    "rewards": "30 Doubloons at Grade I, Seeker of Tales Title at Grade II.",
     "links": [
-      {
-        "text": "",
-        "href": "https://seaofthieves.wiki.gg/wiki/Doubloons"
-      },
       {
         "text": "Seeker of Tales",
         "href": "https://seaofthieves.wiki.gg/wiki/Titles#Seeker_of_Tales"

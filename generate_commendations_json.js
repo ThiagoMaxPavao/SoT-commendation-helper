@@ -17,10 +17,12 @@ rows.forEach(row => {
     });
 
     const rewards = td_cells[1].textContent.trim();
-    const links = Array.from(rewardsCell.querySelectorAll('a')).map(a => ({
-      text: a.innerText.trim(),
-      href: a.href
-    }));
+    const links = Array.from(rewardsCell.querySelectorAll('a'))
+      .map(a => ({
+        text: a.innerText.trim(),
+        href: a.href
+      }))
+      .filter(link => link.text !== "Doubloons" && link.text !== "Gold");
     result.push({ commendation, rewards, links });
   }
 });
