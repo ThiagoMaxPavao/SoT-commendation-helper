@@ -21,14 +21,20 @@ fetch(chrome.runtime.getURL('commendations.json'))
 
         const name = el.innerText.trim();
         const match = data.find(item => item.commendation === name);
-        if (match) {
-          const rewardsText = document.createElement('div');
-          rewardsText.className = 'sot-rewards-text';
-          rewardsText.style.fontSize = '12px';
-          rewardsText.style.color = '#ccc';
+
+        const rewardsText = document.createElement('div');
+        rewardsText.className = 'sot-rewards-text';
+        rewardsText.style.fontSize = '12px';
+        rewardsText.style.color = '#ccc';
+
+        if (!match)
+          rewardsText.innerHTML = '<strong>Rewards not found!</strong>';
+        else if (match.rewards == 'n/a')
+          rewardsText.innerHTML = '<strong>No Rewards.</strong>';
+        else
           rewardsText.innerHTML = `<strong>Rewards:</strong> ${linkifyRewardsText(match.rewards, match.links)}`;
-          el.appendChild(rewardsText);
-        }
+        
+        el.appendChild(rewardsText);
       });
     }
 
