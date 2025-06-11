@@ -1,12 +1,22 @@
 // Purpose: Injects commendation rewards into the commendation page of Sea of Thieves.
 
 function linkifyRewardsText(rewardText, links) {
-  let updatedText = rewardText;
+  // Sort links by text length descending to prioritize longer matches
+  links.sort((a, b) => b.text.length - a.text.length);
 
-  links.forEach(link => {
-    const escapedText = link.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const regex = new RegExp(`\\b${escapedText}\\b`, 'g');
-    updatedText = updatedText.replace(regex, `<a href="${link.href}" target="_blank">${link.text}</a>`);
+  const validLinks = links.filter(link => link.text.trim() !== "");
+  if (validLinks.length === 0) return rewardText; // return if there are no links
+
+  // Escape and join all texts into a single regex pattern
+  const pattern = validLinks.map(link =>
+    link.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  ).join('|');
+
+  const regex = new RegExp(pattern, 'g');
+
+  const updatedText = rewardText.replace(regex, match => {
+    const link = validLinks.find(l => l.text === match);
+    return `<a href="${link.href}" target="_blank">${match}</a>`;
   });
 
   return updatedText;
