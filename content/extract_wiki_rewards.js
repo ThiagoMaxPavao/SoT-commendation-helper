@@ -1,3 +1,5 @@
+// Purpose: Extracts commendation rewards from the Sea of Thieves wiki page and saves them to local storage for later use in the extension.
+
 function extractCommendationsFromWiki() {
   const rows = document.querySelectorAll('table tbody tr');
   const result = {};

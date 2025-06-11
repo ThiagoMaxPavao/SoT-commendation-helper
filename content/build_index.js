@@ -1,5 +1,5 @@
 // Purpose: Build a commendation index from the reputation JSON data received from the extension.
-// Saves the index to local storage
+// Saves the index to local storage for later use in the extension.
 
 // Inject the page-inject script into the page context
 const script = document.createElement('script');
