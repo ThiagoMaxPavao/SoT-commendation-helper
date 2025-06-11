@@ -12,9 +12,9 @@ function linkifyRewardsText(rewardText, links) {
   return updatedText;
 }
 
-chrome.storage.local.get("wikiCommendations", ({ wikiCommendations }) => {
-  if (!wikiCommendations) {
-    console.error("Commendations data not found in local storage.");
+chrome.storage.local.get("wikiCommendationRewards", ({ wikiCommendationRewards }) => {
+  if (!wikiCommendationRewards) {
+    console.error("Commendation rewards data not found in local storage.");
     return;
   }
 
@@ -25,7 +25,7 @@ chrome.storage.local.get("wikiCommendations", ({ wikiCommendations }) => {
       if (el.querySelector('.sot-rewards-text')) return;
 
       const name = el.innerText.trim();
-      const match = wikiCommendations.find(item => item.commendation === name);
+      const match = wikiCommendationRewards.find(item => item.commendation === name);
 
       const rewardsText = document.createElement('div');
       rewardsText.className = 'sot-rewards-text';

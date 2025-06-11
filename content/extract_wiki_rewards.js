@@ -28,7 +28,7 @@ function extractCommendationsFromWiki() {
   });
 
   // Salva no local storage da extensão
-  chrome.storage.local.set({ wikiCommendations: result, wikiCommendationsLastUpdated: Date.now() }, () => {
+  chrome.storage.local.set({ wikiCommendationRewards: result, wikiCommendationRewardsLastUpdated: Date.now() }, () => {
     console.log("Commendations extraídas e salvas com sucesso.");
   });
 }
