@@ -5,19 +5,27 @@
   "description": "Shows rewards for commendations on the Sea of Thieves website.",
   "permissions": [
     "activeTab",
-    "scripting"
+    "scripting",
+    "storage",
+    "tabs"
   ],
   "web_accessible_resources": [
     {
-      "resources": ["commendations.json"],
+      "resources": ["commendations.json", "intercept_reputation.js"],
       "matches": ["<all_urls>"]
     }
   ],
   "content_scripts": [
     {
       "matches": ["https://*.seaofthieves.com/*"],
-      "js": ["content.js"],
-      "css": ["style.css"]
+      "js": [
+        "content/build_index.js",
+        "content/inject_rewards.js"
+      ],
+      "run_at": "document_start"
     }
-  ]
+  ],
+  "action": {
+    "default_popup": "popup/popup.html"
+  }
 }
