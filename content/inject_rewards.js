@@ -14,7 +14,7 @@ function linkifyRewardsText(rewardText, links) {
 
 chrome.storage.local.get("wikiCommendationRewards", ({ wikiCommendationRewards }) => {
   if (!wikiCommendationRewards) {
-    console.error("Commendation rewards data not found in local storage.");
+    console.error("Commendation rewards not found in local storage.");
     return;
   }
 
@@ -25,7 +25,7 @@ chrome.storage.local.get("wikiCommendationRewards", ({ wikiCommendationRewards }
       if (el.querySelector('.sot-rewards-text')) return;
 
       const name = el.innerText.trim();
-      const match = wikiCommendationRewards.find(item => item.commendation === name);
+      const match = wikiCommendationRewards[name];
 
       const rewardsText = document.createElement('div');
       rewardsText.className = 'sot-rewards-text';
