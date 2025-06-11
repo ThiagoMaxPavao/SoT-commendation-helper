@@ -34,14 +34,15 @@ document.addEventListener("DOMContentLoaded", () => {
     if (query.length === 0) return;
 
     const matches = Object.keys(commendationIndex).filter(name =>
-      name.toLowerCase().includes(query)
+      name.toLowerCase().includes(sanitizeName(query))
     );
 
     matches.forEach(match => {
       const li = document.createElement("li");
-      li.textContent = match;
+      const name = commendationIndex[match].name;
+      li.textContent = name;
       li.addEventListener("click", () => {
-        const path = commendationIndex[match];
+        const path = commendationIndex[match].path;
 
         chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
           const activeTab = tabs[0];
@@ -49,11 +50,11 @@ document.addEventListener("DOMContentLoaded", () => {
             chrome.tabs.sendMessage(activeTab.id, {
               action: "navigateCommendation",
               path: path,
-              commendationName: match
+              commendationName: name
             });
           } else {
             chrome.tabs.create({
-              url: `https://www.seaofthieves.com/profile/reputation/${path}?highlight=${encodeURIComponent(match)}`
+              url: `https://www.seaofthieves.com/profile/reputation/${path}?highlight=${encodeURIComponent(name)}`
             });
           }
         });

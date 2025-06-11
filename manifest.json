@@ -19,6 +19,7 @@
     {
       "matches": ["https://*.seaofthieves.com/*"],
       "js": [
+        "content/sanitize_name.js",
         "content/build_index.js",
         "content/inject_rewards.js",
         "content/navigation.js"
@@ -27,7 +28,10 @@
     },
     {
       "matches": ["https://seaofthieves.wiki.gg/wiki/Commendations"],
-      "js": ["content/extract_wiki_rewards.js"],
+      "js": [
+        "content/sanitize_name.js",
+        "content/extract_wiki_rewards.js"
+      ],
       "run_at": "document_idle"
     }
   ],

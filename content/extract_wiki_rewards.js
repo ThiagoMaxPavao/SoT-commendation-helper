@@ -26,7 +26,7 @@ function extractCommendationsFromWiki() {
         }))
         .filter(link => link.text !== "Doubloons" && link.text !== "Gold");
       
-      result[commendation] = { rewards, links };
+      result[sanitizeName(commendation)] = { name: commendation, rewards, links };
     }
   });
 

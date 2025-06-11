@@ -37,7 +37,10 @@ function buildCommendationIndex(reputationJson) {
     if (companyData.Emblems && Array.isArray(companyData.Emblems.Emblems)) {
       companyData.Emblems.Emblems.forEach(commendation => {
         if (commendation.DisplayName) {
-          index[commendation.DisplayName] = `${companyName}`;
+          index[sanitizeName(commendation.DisplayName)] = {
+            name: commendation.DisplayName,
+            path: `${sanitizeName(companyName)}`
+          };
         }
       });
     }
@@ -47,14 +50,17 @@ function buildCommendationIndex(reputationJson) {
       for (const [campaignName, campaignData] of Object.entries(companyData.Campaigns)) {
         // Map path to Campaign Title
         if (campaignData.Title) {
-          campaignTitleMap[`${companyName}/${campaignName}`] = campaignData.Title;
+          campaignTitleMap[`${sanitizeName(companyName)}/${sanitizeName(campaignName)}`] = sanitizeName(campaignData.Title);
         }
 
         // Map commendations inside campaign
         if (campaignData.Emblems && Array.isArray(campaignData.Emblems)) {
           campaignData.Emblems.forEach(commendation => {
             if (commendation.DisplayName) {
-              index[commendation.DisplayName] = `${companyName}/${campaignName}`;
+              index[sanitizeName(commendation.DisplayName)] = {
+                name: commendation.DisplayName,
+                path: `${sanitizeName(companyName)}/${sanitizeName(campaignName)}`
+              };
             }
           });
         }
