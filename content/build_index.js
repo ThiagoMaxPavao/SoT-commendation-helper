@@ -39,7 +39,7 @@ function buildCommendationIndex(reputationJson) {
         if (commendation.DisplayName) {
           index[sanitizeName(commendation.DisplayName)] = {
             name: commendation.DisplayName,
-            path: `${sanitizeName(companyName)}`
+            path: `${companyName}`
           };
         }
       });
@@ -50,7 +50,7 @@ function buildCommendationIndex(reputationJson) {
       for (const [campaignName, campaignData] of Object.entries(companyData.Campaigns)) {
         // Map path to Campaign Title
         if (campaignData.Title) {
-          campaignTitleMap[`${sanitizeName(companyName)}/${sanitizeName(campaignName)}`] = sanitizeName(campaignData.Title);
+          campaignTitleMap[`${companyName}/${campaignName}`] = sanitizeName(campaignData.Title);
         }
 
         // Map commendations inside campaign
@@ -59,7 +59,7 @@ function buildCommendationIndex(reputationJson) {
             if (commendation.DisplayName) {
               index[sanitizeName(commendation.DisplayName)] = {
                 name: commendation.DisplayName,
-                path: `${sanitizeName(companyName)}/${sanitizeName(campaignName)}`
+                path: `${companyName}/${campaignName}`
               };
             }
           });
