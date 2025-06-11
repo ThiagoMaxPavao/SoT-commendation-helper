@@ -1,11 +1,30 @@
 document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("search");
   const resultsList = document.getElementById("results");
+  const instruction = document.getElementById("instruction");
+  const retryButton = document.getElementById("retry-button");
 
   let commendationIndex = {};
 
-  chrome.storage.local.get("commendationIndex", (data) => {
-    commendationIndex = data.commendationIndex || {};
+  function loadCommendationIndex() {
+    chrome.storage.local.get("commendationIndex", (data) => {
+      if (data.commendationIndex && Object.keys(data.commendationIndex).length > 0) {
+        commendationIndex = data.commendationIndex;
+        instruction.style.display = "none";
+        searchInput.disabled = false;
+      } else {
+        instruction.style.display = "block";
+        searchInput.disabled = true;
+      }
+    });
+  }
+
+  // Initial load
+  loadCommendationIndex();
+
+  // Retry button click
+  retryButton.addEventListener("click", () => {
+    loadCommendationIndex();
   });
 
   searchInput.addEventListener("input", () => {
