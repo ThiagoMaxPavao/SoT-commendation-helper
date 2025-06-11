@@ -39,8 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     matches.forEach(match => {
       const li = document.createElement("li");
-      const name = commendationIndex[match].name;
-      li.textContent = name;
+      li.textContent = commendationIndex[match].name;
       li.addEventListener("click", () => {
         const path = commendationIndex[match].path;
 
@@ -50,11 +49,11 @@ document.addEventListener("DOMContentLoaded", () => {
             chrome.tabs.sendMessage(activeTab.id, {
               action: "navigateCommendation",
               path: path,
-              commendationName: name
+              commendationName: match
             });
           } else {
             chrome.tabs.create({
-              url: `https://www.seaofthieves.com/profile/reputation/${path}?highlight=${encodeURIComponent(name)}`
+              url: `https://www.seaofthieves.com/profile/reputation/${path}?highlight=${encodeURIComponent(match)}`
             });
           }
         });

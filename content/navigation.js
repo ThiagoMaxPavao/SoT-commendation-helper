@@ -114,7 +114,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         const campaignButtons = document.querySelectorAll("button");
         for (const button of campaignButtons) {
           const titleH3 = button.querySelector("h3.campaign__title");
-          if (titleH3 && titleH3.textContent.trim() === campaignTitle) {
+          if (titleH3 && sanitizeName(titleH3.textContent.trim()) === campaignTitle) {
             button.click();
             console.log("Clicked campaign:", campaignTitle);
             setTimeout(() => {
@@ -138,7 +138,7 @@ const highlightCommendation = (targetCommendationName) => {
     const containers = document.querySelectorAll(".emblem-item");
     for (const container of containers) {
       const button = container.querySelector("button[aria-label]");
-      if (button && button.getAttribute("aria-label") === targetCommendationName) {
+      if (button && sanitizeName(button.getAttribute("aria-label")) === targetCommendationName) {
         console.log("Found commendation:", targetCommendationName);
 
         // Highlight

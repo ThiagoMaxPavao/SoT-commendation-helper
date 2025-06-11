@@ -112,7 +112,7 @@ chrome.storage.local.get("wikiCommendationRewards", function handleStorage({ wik
       // Impede adicionar rewards mais de uma vez
       if (el.querySelector('.sot-rewards-text')) return;
 
-      const name = el.innerText.trim();
+      const name = sanitizeName(el.innerText.trim());
       if(isRewardException(name)) return;
 
       const match = wikiCommendationRewards[name];
