@@ -22,6 +22,40 @@ function linkifyRewardsText(rewardText, links) {
   return updatedText;
 }
 
+function isRewardException(name) {
+  if(name.endsWith("Title")) return true;
+  if(name.endsWith("Title.")) return true; // Exclude titles
+
+  curses = [
+    "The Ashen Curse",
+    "Shores of Gold Curse",
+    "Wild Seas Curse",
+  ];
+  if(curses.includes(name)) return true;
+
+  items = [
+    "Gold Hoarder Jacket",
+    "Gold Hoarder Figurehead",
+    "Ancient Spyglass",
+    "Ashen Dragon Hull",
+    "Ashen Dragon Sails",
+  ];
+  if(items.includes(name)) return true;
+
+  return false;
+}
+
+chrome.storage.local.get(["wikiCommendationRewards", "commendationIndex"], (data) => {
+  const rewards = data.wikiCommendationRewards || {};
+  const index = data.commendationIndex || {};
+
+  const missingCommendations = Object.keys(index).filter(name => !(name in rewards));
+
+  const filteredCommendations = missingCommendations.filter(name => !isRewardException(name));
+
+  console.log("[Commendation Helper Extension] Commendations missing rewards (filtered):", filteredCommendations);
+});
+
 chrome.storage.local.get("wikiCommendationRewards", function handleStorage({ wikiCommendationRewards }) {
   if (!wikiCommendationRewards) {
     // Create popup container
@@ -79,6 +113,8 @@ chrome.storage.local.get("wikiCommendationRewards", function handleStorage({ wik
       if (el.querySelector('.sot-rewards-text')) return;
 
       const name = el.innerText.trim();
+      if(isRewardException(name)) return;
+
       const match = wikiCommendationRewards[name];
 
       const rewardsText = document.createElement('div');
