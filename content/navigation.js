@@ -145,7 +145,7 @@ const highlightCommendation = (targetCommendationName) => {
         container.scrollIntoView({ behavior: "smooth", block: "center" });
         container.style.transition = "box-shadow 0.3s ease, transform 0.3s ease";
         container.style.boxShadow = "0 0 15px 5px #58C1B2";
-        container.style.transform = "scale(1.03)";
+        container.style.transform = "scale(1.02)";
         setTimeout(() => {
           container.style.boxShadow = "0 0 0 0 transparent";
           container.style.transform = "scale(1)";
