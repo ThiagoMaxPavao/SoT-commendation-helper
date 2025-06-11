@@ -23,8 +23,21 @@ document.addEventListener("DOMContentLoaded", () => {
       li.textContent = match;
       li.addEventListener("click", () => {
         const path = commendationIndex[match];
-        const url = `https://www.seaofthieves.com/profile/reputation/${path}`;
-        chrome.tabs.create({ url: url });
+
+        chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+          const activeTab = tabs[0];
+          if (activeTab && activeTab.url.startsWith("https://www.seaofthieves.com/profile/reputation")) {
+            chrome.tabs.sendMessage(activeTab.id, {
+              action: "navigateCommendation",
+              path: path,
+              commendationName: match // ← this is the fix: sending actual commendation name
+            });
+          } else {
+            chrome.tabs.create({
+              url: `https://www.seaofthieves.com/profile/reputation/${path}?highlight=${encodeURIComponent(match)}`
+            });
+          }
+        });
       });
       resultsList.appendChild(li);
     });

@@ -15,20 +15,25 @@ window.addEventListener("message", (event) => {
 
   if (event.data && event.data.source === "commendation-helper-extension" && event.data.type === "REPUTATION_JSON") {
     const reputationJson = event.data.data;
-    const index = buildCommendationIndex(reputationJson);
+    const { index, campaignTitleMap } = buildCommendationIndex(reputationJson);
+
     chrome.storage.local.set({
       commendationIndex: index,
-      commendationIndexLastUpdated: Date.now()
+      commendationIndexLastUpdated: Date.now(),
+      campaignTitleMap: campaignTitleMap,
+      campaignTitleMapLastUpdated: Date.now(),
     });
   }
 });
 
 function buildCommendationIndex(reputationJson) {
   const index = {};
+  const campaignTitleMap = {};
 
   for (const [companyName, companyData] of Object.entries(reputationJson)) {
     if (typeof companyData !== 'object') continue;
 
+    // Base-level commendations (without campaigns)
     if (companyData.Emblems && Array.isArray(companyData.Emblems.Emblems)) {
       companyData.Emblems.Emblems.forEach(commendation => {
         if (commendation.DisplayName) {
@@ -37,8 +42,15 @@ function buildCommendationIndex(reputationJson) {
       });
     }
 
+    // Campaign commendations
     if (companyData.Campaigns) {
       for (const [campaignName, campaignData] of Object.entries(companyData.Campaigns)) {
+        // Map path to Campaign Title
+        if (campaignData.Title) {
+          campaignTitleMap[`${companyName}/${campaignName}`] = campaignData.Title;
+        }
+
+        // Map commendations inside campaign
         if (campaignData.Emblems && Array.isArray(campaignData.Emblems)) {
           campaignData.Emblems.forEach(commendation => {
             if (commendation.DisplayName) {
@@ -50,5 +62,5 @@ function buildCommendationIndex(reputationJson) {
     }
   }
 
-  return index;
+  return { index, campaignTitleMap };
 }
