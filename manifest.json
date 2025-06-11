@@ -11,8 +11,8 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["commendations.json", "intercept_reputation.js"],
-      "matches": ["<all_urls>"]
+      "matches": ["https://*.seaofthieves.com/*"],
+      "resources": ["intercept_reputation.js"]
     }
   ],
   "content_scripts": [
@@ -23,6 +23,11 @@
         "content/inject_rewards.js"
       ],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["https://seaofthieves.wiki.gg/wiki/Commendations"],
+      "js": ["content/extract_wiki_rewards.js"],
+      "run_at": "document_idle"
     }
   ],
   "action": {

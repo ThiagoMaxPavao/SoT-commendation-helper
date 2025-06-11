@@ -12,16 +12,20 @@ function linkifyRewardsText(rewardText, links) {
   return updatedText;
 }
 
-fetch(chrome.runtime.getURL('commendations.json'))
-.then(response => response.json())
-.then(data => {
+chrome.storage.local.get("wikiCommendations", ({ wikiCommendations }) => {
+  if (!wikiCommendations) {
+    console.error("Commendations data not found in local storage.");
+    return;
+  }
+
   function processCommendations() {
     const commendations = document.querySelectorAll('.emblem-item__title');
     commendations.forEach(el => {
+      // Impede adicionar rewards mais de uma vez
       if (el.querySelector('.sot-rewards-text')) return;
 
       const name = el.innerText.trim();
-      const match = data.find(item => item.commendation === name);
+      const match = wikiCommendations.find(item => item.commendation === name);
 
       const rewardsText = document.createElement('div');
       rewardsText.className = 'sot-rewards-text';
@@ -30,7 +34,7 @@ fetch(chrome.runtime.getURL('commendations.json'))
 
       if (!match)
         rewardsText.innerHTML = '<strong>Rewards not found!</strong>';
-      else if (match.rewards == 'n/a')
+      else if (match.rewards === 'n/a')
         rewardsText.innerHTML = '<strong>No Rewards.</strong>';
       else
         rewardsText.innerHTML = `<strong>Rewards:</strong> ${linkifyRewardsText(match.rewards, match.links)}`;
@@ -39,8 +43,10 @@ fetch(chrome.runtime.getURL('commendations.json'))
     });
   }
 
+  // Primeira execução
   processCommendations();
 
+  // Observar mudanças no DOM
   const observer = new MutationObserver(() => {
     processCommendations();
   });
@@ -49,5 +55,4 @@ fetch(chrome.runtime.getURL('commendations.json'))
     childList: true,
     subtree: true
   });
-})
-.catch(err => console.error(err));
+});
