@@ -22,9 +22,53 @@ function linkifyRewardsText(rewardText, links) {
   return updatedText;
 }
 
-chrome.storage.local.get("wikiCommendationRewards", ({ wikiCommendationRewards }) => {
+chrome.storage.local.get("wikiCommendationRewards", function handleStorage({ wikiCommendationRewards }) {
   if (!wikiCommendationRewards) {
-    console.error("Commendation rewards not found in local storage.");
+    // Create popup container
+    const popup = document.createElement('div');
+    popup.style.position = 'fixed';
+    popup.style.top = '0';
+    popup.style.left = '0';
+    popup.style.width = '100vw';
+    popup.style.height = '100vh';
+    popup.style.background = 'rgba(0,0,0,0.6)';
+    popup.style.display = 'flex';
+    popup.style.alignItems = 'center';
+    popup.style.justifyContent = 'center';
+    popup.style.zIndex = '9999';
+
+    // Create popup content
+    const content = document.createElement('div');
+    content.style.background = '#222';
+    content.style.color = '#fff';
+    content.style.padding = '24px 32px';
+    content.style.borderRadius = '8px';
+    content.style.boxShadow = '0 2px 16px rgba(0,0,0,0.5)';
+    content.style.textAlign = 'center';
+    content.innerHTML = `
+      <h2>Commendation Rewards Not Loaded</h2>
+      <p>To load rewards, please visit:<br>
+        <a href="https://seaofthieves.wiki.gg/wiki/Commendations" target="_blank" style="color:#4fc3f7;">seaofthieves.wiki.gg/wiki/Commendations</a>
+      </p>
+      <p style="margin-top:16px;">
+        If you already did... 
+        <button id="sot-retry-popup" style="padding:6px 14px;border:none;border-radius:4px;background:#4fc3f7;color:#222;font-weight:bold;cursor:pointer;">Retry</button>
+      </p>
+      <button id="sot-close-popup" style="margin-top:16px;padding:8px 16px;border:none;border-radius:4px;background:#4fc3f7;color:#222;font-weight:bold;cursor:pointer;">Close</button>
+    `;
+
+    // Close button handler
+    content.querySelector('#sot-close-popup').onclick = () => popup.remove();
+
+    // Retry button handler
+    content.querySelector('#sot-retry-popup').onclick = () => {
+      popup.remove();
+      chrome.storage.local.get("wikiCommendationRewards", handleStorage);
+    };
+
+    popup.appendChild(content);
+    document.body.appendChild(popup);
+
     return;
   }
 
