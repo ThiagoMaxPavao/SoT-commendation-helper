@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             chrome.tabs.sendMessage(activeTab.id, {
               action: "navigateCommendation",
               path: path,
-              commendationName: match // ← this is the fix: sending actual commendation name
+              commendationName: match
             });
           } else {
             chrome.tabs.create({
