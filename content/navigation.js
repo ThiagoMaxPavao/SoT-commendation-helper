@@ -135,13 +135,17 @@ const highlightCommendation = (targetCommendationName) => {
 
         // Highlight
         container.scrollIntoView({ behavior: "smooth", block: "center" });
-        container.style.transition = "box-shadow 0.3s ease, transform 0.3s ease";
+        container.style.transition = "box-shadow 0.3s ease, transform 0.3s ease, z-index 0s, background 0.3s ease";
         container.style.boxShadow = "0 0 15px 5px #58C1B2";
-        container.style.transform = "scale(1.02)";
+        container.style.transform = "scale(1.05)";
+        container.style.zIndex = "1000";
+        container.style.background = "rgba(17,18,25,1)"; // temporary background
         setTimeout(() => {
           container.style.boxShadow = "0 0 0 0 transparent";
           container.style.transform = "scale(1)";
-        }, 1500);
+          container.style.zIndex = "";
+          container.style.background = "";
+        }, 2000);
         return true;
       }
     }
