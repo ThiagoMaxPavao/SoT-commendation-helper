@@ -41,21 +41,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     const targetPath = message.path;
     const targetCommendationName = message.commendationName;
 
-    const companyTitleMap = {
-      AthenasFortune: "Athena's Fortune",
-      BilgeRats: "Bilge Rats",
-      CreatorCrew: "Creator Crew",
-      Flameheart: "Servants of the Flame",
-      GoldHoarders: "Gold Hoarders",
-      HuntersCall: "Hunter's Call",
-      MerchantAlliance: "Merchant Alliance",
-      OrderOfSouls: "Order of Souls",
-      PirateLord: "Guardians of Fortune",
-      ReapersBones: "Reaper's Bones",
-      SeaDogs: "Sea Dogs",
-      TallTales: "Tall Tales"
-    };
-
     const navigateBackUntilPathMatches = () => {
       if (`/profile/reputation/${targetPath}`.startsWith(location.pathname)) {
         logger.log("Reached base path:", location.pathname);
@@ -78,21 +63,29 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         logger.warn("Back button not found");
       }
     };
+    
+    const companyClassPrefix = "company-reputation-wrapper-v2--"
+    function companyNameToClassSuffix(companyName) {
+      return companyName
+        .replace(/([A-Z])/g, '-$1')   // Insert dash before each uppercase letter
+        .replace(/^-/, '')            // Remove leading dash if present
+        .toLowerCase();               // Lowercase everything
+    }
 
     const clickCompany = () => {
       const company = targetPath.split("/")[0];
-      const targetCompanyTitle = companyTitleMap[company];
-      if (!targetCompanyTitle) return;
+      const classSuffix = companyNameToClassSuffix(company);
+      const companyClass = companyClassPrefix + classSuffix;
 
-      const companyButtons = document.querySelectorAll("button");
-      for (const button of companyButtons) {
-        const titleDiv = button.querySelector(".company-reputation-wrapper-v2__title");
-        if (titleDiv && titleDiv.textContent.trim() === targetCompanyTitle) {
-          button.click();
-          logger.log("Clicked company:", targetCompanyTitle);
-          setTimeout(clickCampaignIfNeeded, 500);
-          return;
-        }
+      // Select the button with the specific class
+      const button = document.querySelector(`button.${companyClass}`);
+      if (button) {
+        button.click();
+        logger.log("Clicked company button with class:", companyClass);
+        setTimeout(clickCampaignIfNeeded, 500);
+        return;
+      } else {
+        logger.warn("Company button not found for class:", companyClass);
       }
     };
 
