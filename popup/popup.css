@@ -1,0 +1,95 @@
+body {
+  background: url('/popup/site-bg.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #f0d79f;
+  font-family: 'Cinzel Decorative', cursive, serif;
+  text-shadow: 1px 1px #000;
+  padding: 15px;
+  margin: 0;
+  width: 300px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #eecb8b;
+  border-bottom: 2px solid #8c5b2c;
+  padding-bottom: 5px;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 2px solid #8c5b2c;
+  border-radius: 5px;
+  background-color: #3b2e1a;
+  color: #f0d79f;
+}
+
+#instruction {
+  background-color: rgba(40, 20, 10, 0.8);
+  color: #f0d79f;
+  padding: 10px;
+  border: 1px solid #8c5b2c;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+#instruction a {
+  color: #ffd96f;
+  text-decoration: underline;
+}
+
+#retry-container {
+  margin-top: 10px;
+}
+
+#retry-button {
+  background-color: #8c5b2c;
+  color: #f0d79f;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#retry-button:hover {
+  background-color: #a96f3a;
+}
+
+ul#results {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+ul#results li {
+  background-color: rgba(50, 30, 15, 0.8);
+  padding: 8px;
+  border: 1px solid #8c5b2c;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* Optional: Add a subtle scroll bar for results if too many */
+ul#results {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Scrollbar styling (WebKit browsers) */
+ul#results::-webkit-scrollbar {
+  width: 8px;
+}
+
+ul#results::-webkit-scrollbar-track {
+  background: #2b1a0f;
+}
+
+ul#results::-webkit-scrollbar-thumb {
+  background-color: #8c5b2c;
+  border-radius: 4px;
+}
