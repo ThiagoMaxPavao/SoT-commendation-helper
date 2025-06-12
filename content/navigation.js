@@ -1,3 +1,6 @@
+const WAIT_REPUTATION_CONTAINER_CHECK_INTERVAL = 200;
+const NAVIGATION_TIMEOUT = 10;
+
 // Navigating to a new tab
 const waitForReputationContainerVisible = (callback) => {
   const check = () => {
@@ -7,7 +10,7 @@ const waitForReputationContainerVisible = (callback) => {
     if (isVisible) {
       callback();
     } else {
-      setTimeout(check, 200); // retry every 200ms
+      setTimeout(check, WAIT_REPUTATION_CONTAINER_CHECK_INTERVAL); // retry every 200ms
     }
   };
 
@@ -56,7 +59,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         if (backButton) {
           backButton.click();
           logger.log("Clicked back button");
-          setTimeout(navigateBackUntilPathMatches, 500);
+          setTimeout(navigateBackUntilPathMatches, NAVIGATION_TIMEOUT);
         } else {
           logger.warn("Back button not found");
         }
@@ -81,7 +84,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       if (button) {
         button.click();
         logger.log("Clicked company button with class:", companyClass);
-        setTimeout(clickCampaignIfNeeded, 500);
+        setTimeout(clickCampaignIfNeeded, NAVIGATION_TIMEOUT);
         return;
       } else {
         logger.warn("Company button not found for class:", companyClass);
@@ -111,7 +114,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             logger.log("Clicked campaign:", campaignTitle);
             setTimeout(() => {
               highlightCommendation(targetCommendationName)
-            }, 500);
+            }, NAVIGATION_TIMEOUT);
             return;
           }
         }
@@ -165,7 +168,7 @@ const highlightCommendation = (targetCommendationName) => {
 
     logger.log("Commendation not found on this page, moving to next page...");
     nextButton.click();
-    setTimeout(tryPaginationUntilFound, 800);
+    setTimeout(tryPaginationUntilFound, NAVIGATION_TIMEOUT);
   };
 
   const goToFirstPageAndStart = () => {
@@ -178,7 +181,7 @@ const highlightCommendation = (targetCommendationName) => {
     } else {
       logger.log("Navigating to first page...");
       firstButton.click();
-      setTimeout(tryPaginationUntilFound, 800); // wait for page update
+      setTimeout(tryPaginationUntilFound, NAVIGATION_TIMEOUT); // wait for page update
     }
   };
 
