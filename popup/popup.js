@@ -52,6 +52,17 @@ document.addEventListener("DOMContentLoaded", () => {
       name.toLowerCase().includes(sanitizeName(query))
     );
 
+    if (matches.length === 0) {
+      const li = document.createElement("li");
+      li.innerHTML = "You're on unknown waters!<br>No commendations were found.";
+      li.style.fontStyle = "italic";
+      li.style.textAlign = "center";
+      li.style.color = "#bfa76f";
+      li.style.cursor = "default"; // Remove pointer mouse
+      resultsList.appendChild(li);
+      return;
+    }
+
     matches.forEach((match, idx) => {
       const li = document.createElement("li");
       li.textContent = commendationIndex[match].name;
