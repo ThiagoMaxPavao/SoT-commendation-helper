@@ -23,24 +23,86 @@ function linkifyRewardsText(rewardText, links) {
 }
 
 function isRewardException(name) {
-  if(name.endsWith("Title")) return true;
-  if(name.endsWith("Title.")) return true; // Exclude titles
+  if (name.endsWith("Title")) return true;
+  if (name.endsWith("Title.")) return true; // Exclude titles
 
-  curses = [
+  const curses = [
     "The Ashen Curse",
     "Shores of Gold Curse",
     "Wild Seas Curse",
+    "Order of Souls Eye Curse",
+    "Curse of Sunken Sorrow",
   ];
-  if(curses.includes(name)) return true;
+  if (curses.includes(name)) return true;
 
-  items = [
+  const clothing = [
     "Gold Hoarder Jacket",
+    "Briggsys Hat",
+    "Circus Superstar Costume",
+    "Cursed Captains Hat",
+    "Pirate Lords Hat",
+    "Pirate Lords Jacket",
+    "Tavern Chefs Uniform",
+  ];
+  if (clothing.includes(name)) return true;
+
+  const ship = [
     "Gold Hoarder Figurehead",
-    "Ancient Spyglass",
     "Ashen Dragon Hull",
     "Ashen Dragon Sails",
+    "Briggsys Sails",
+    "Cannons of Sunken Sorrow",
+    "Cursed Captains Sails",
+    "Figurehead of Sunken Sorrow",
+    "Hull of Sunken Sorrow",
+    "Magpies Fortune Sails",
+    "Magpies Wing Cannons",
+    "Morningstar Figurehead",
+    "Morningstar Flag",
+    "Morningstar Hull",
+    "Morningstar Sails",
+    "Revenge of the Silver Blade Capstan",
+    "Trapmakers Capstan",
+    "Wild Rose Wheel",
   ];
-  if(items.includes(name)) return true;
+  if (ship.includes(name)) return true;
+
+  const equipment = [
+    "Ancient Spyglass",
+    "Banjo of the Damned",
+    "Concertina of the Damned",
+    "Drum of the Damned",
+    "Hurdy-Gurdy of the Damned",
+    "Rum Bottle Spyglass",
+    "Roses Compass",
+  ];
+  if (equipment.includes(name)) return true;
+
+  const shanties = [
+    "Monkey Island Shanty",
+    "Yo Ho A Pirates Life Shanty",
+  ];
+  if (shanties.includes(name)) return true;
+
+  const weapons = [
+    "Briggsys Sword",
+    "Burning Blade Cutlass",
+    "Pendragons Sword of Souls",
+    "Pistol of Sunken Sorrow",
+    "Revenge of the Silver Blade Cutlass",
+    "The Legend of Monkey Island Cutlass",
+  ];
+  if (weapons.includes(name)) return true;
+
+  const other = [
+    "Constellation Tattoo Set",
+    "Governor Guybrush Portrait",
+    "Idol o Many Hands",
+    "LeChuck Portrait",
+    "Legend of Monkey Island Figurines",
+    "Mêlée by Moonlight",
+  ];
+  if (other.includes(name)) return true;
 
   return false;
 }
