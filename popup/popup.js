@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const retryButton = document.getElementById("retry-button");
 
   let commendationIndex = {};
+  let highlightedIndex = -1;
 
   function loadCommendationIndex() {
     chrome.storage.local.get("commendationIndex", (data) => {
@@ -20,6 +21,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  function updateHighlight() {
+    const items = resultsList.querySelectorAll("li");
+    items.forEach((li, idx) => {
+      if (idx === highlightedIndex) {
+        li.classList.add("highlighted");
+        li.scrollIntoView({ block: "nearest" });
+      } else {
+        li.classList.remove("highlighted");
+      }
+    });
+  }
+
   // Initial load
   loadCommendationIndex();
 
@@ -31,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
   searchInput.addEventListener("input", () => {
     const query = searchInput.value.toLowerCase();
     resultsList.innerHTML = "";
+    highlightedIndex = -1;
 
     if (query.length === 0) return;
 
@@ -38,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name.toLowerCase().includes(sanitizeName(query))
     );
 
-    matches.forEach(match => {
+    matches.forEach((match, idx) => {
       const li = document.createElement("li");
       li.textContent = commendationIndex[match].name;
       li.addEventListener("click", () => {
@@ -67,16 +81,26 @@ document.addEventListener("DOMContentLoaded", () => {
       });
       resultsList.appendChild(li);
     });
+    updateHighlight();
   });
 
   searchInput.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") {
-      const firstResult = resultsList.querySelector("li");
-      if (firstResult) {
-        firstResult.click();
-        firstResult.add("clicked");
-        setTimeout(() => firstResult.remove("clicked"), 300);
-      }
+    const items = resultsList.querySelectorAll("li");
+    if (["ArrowDown", "ArrowUp", "Enter"].includes(e.key)) e.preventDefault();
+
+    if (e.key === "ArrowDown") {
+      if (items.length === 0) return;
+      if (highlightedIndex === -1) highlightedIndex = 0;
+      highlightedIndex = (highlightedIndex + 1) % items.length;
+      updateHighlight();
+    } else if (e.key === "ArrowUp") {
+      if (items.length === 0) return;
+      highlightedIndex = (highlightedIndex - 1 + items.length) % items.length;
+      updateHighlight();
+    } else if (e.key === "Enter") {
+      if (items.length === 0) return;
+      if (highlightedIndex === -1) highlightedIndex = 0;
+      items[highlightedIndex].click();
     }
   });
 });

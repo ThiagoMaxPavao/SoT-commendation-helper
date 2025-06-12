@@ -112,3 +112,8 @@ ul#results li.clicked {
     color: #f0d79f;
   }
 }
+
+li.highlighted {
+  border: 2px solid #0078d7 !important;
+  background: #e6f0fa;
+}
