@@ -42,25 +42,21 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     const targetCommendationName = message.commendationName;
 
     const navigateBackUntilPathMatches = () => {
-      if (`/profile/reputation/${targetPath}`.startsWith(location.pathname)) {
-        logger.log("Reached base path:", location.pathname);
-        if (location.pathname === "/profile/reputation") {
-          clickCompany();
-        } else if (location.pathname === `/profile/reputation/${targetPath.split("/")[0]}`) {
-          clickCampaignIfNeeded();
-        } else if (location.pathname === `/profile/reputation/${targetPath}`) {
-          highlightCommendation(targetCommendationName);
-        }
-        return;
-      }
-
-      const backButton = document.querySelector("button.button.button--shamrock");
-      if (backButton) {
-        backButton.click();
-        logger.log("Clicked back button");
-        setTimeout(navigateBackUntilPathMatches, 500);
+      if (location.pathname === "/profile/reputation") {
+        clickCompany();
+      } else if (location.pathname === `/profile/reputation/${targetPath.split("/")[0]}`) {
+        clickCampaignIfNeeded();
+      } else if (location.pathname === `/profile/reputation/${targetPath}`) {
+        highlightCommendation(targetCommendationName);
       } else {
-        logger.warn("Back button not found");
+        const backButton = document.querySelector("button.button.button--shamrock");
+        if (backButton) {
+          backButton.click();
+          logger.log("Clicked back button");
+          setTimeout(navigateBackUntilPathMatches, 500);
+        } else {
+          logger.warn("Back button not found");
+        }
       }
     };
     
