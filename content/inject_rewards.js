@@ -115,7 +115,7 @@ chrome.storage.local.get(["wikiCommendationRewards", "commendationIndex"], (data
 
   const filteredCommendations = missingCommendations.filter(name => !isRewardException(name));
 
-  console.log("[Commendation Helper Extension] Commendations missing rewards (filtered):", filteredCommendations);
+  logger.warn("Commendations missing rewards (filtered):", filteredCommendations);
 });
 
 chrome.storage.local.get("wikiCommendationRewards", function handleStorage({ wikiCommendationRewards }) {

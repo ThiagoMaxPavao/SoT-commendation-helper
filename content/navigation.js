@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const targetCommendationName = getCommendationFromURL();
 
   if (targetCommendationName) {
-    console.log("Auto-highlighting commendation from URL:", targetCommendationName);
+    logger.log("Auto-highlighting commendation from URL:", targetCommendationName);
     waitForReputationContainerVisible(() => {
       highlightCommendation(targetCommendationName);
     });
@@ -58,7 +58,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
     const navigateBackUntilPathMatches = () => {
       if (`/profile/reputation/${targetPath}`.startsWith(location.pathname)) {
-        console.log("Reached base path:", location.pathname);
+        logger.log("Reached base path:", location.pathname);
         if (location.pathname === "/profile/reputation") {
           clickCompany();
         } else if (location.pathname === `/profile/reputation/${targetPath.split("/")[0]}`) {
@@ -72,10 +72,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       const backButton = document.querySelector("button.button.button--shamrock");
       if (backButton) {
         backButton.click();
-        console.log("Clicked back button");
+        logger.log("Clicked back button");
         setTimeout(navigateBackUntilPathMatches, 500);
       } else {
-        console.warn("Back button not found");
+        logger.warn("Back button not found");
       }
     };
 
@@ -89,7 +89,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         const titleDiv = button.querySelector(".company-reputation-wrapper-v2__title");
         if (titleDiv && titleDiv.textContent.trim() === targetCompanyTitle) {
           button.click();
-          console.log("Clicked company:", targetCompanyTitle);
+          logger.log("Clicked company:", targetCompanyTitle);
           setTimeout(clickCampaignIfNeeded, 500);
           return;
         }
@@ -106,7 +106,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       chrome.storage.local.get("campaignTitleMap", (data) => {
         const campaignTitle = data.campaignTitleMap ? data.campaignTitleMap[targetPath] : null;
         if (!campaignTitle) {
-          console.warn("Campaign title not found for:", targetPath);
+          logger.warn("Campaign title not found for:", targetPath);
           highlightCommendation(targetCommendationName);
           return;
         }
@@ -116,7 +116,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
           const titleH3 = button.querySelector("h3.campaign__title");
           if (titleH3 && sanitizeName(titleH3.textContent.trim()) === campaignTitle) {
             button.click();
-            console.log("Clicked campaign:", campaignTitle);
+            logger.log("Clicked campaign:", campaignTitle);
             setTimeout(() => {
               highlightCommendation(targetCommendationName)
             }, 500);
@@ -124,7 +124,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
           }
         }
 
-        console.warn("Campaign button not found for:", campaignTitle);
+        logger.warn("Campaign button not found for:", campaignTitle);
         highlightCommendation(targetCommendationName);
       });
     };
@@ -139,7 +139,7 @@ const highlightCommendation = (targetCommendationName) => {
     for (const container of containers) {
       const button = container.querySelector("button[aria-label]");
       if (button && sanitizeName(button.getAttribute("aria-label")) === targetCommendationName) {
-        console.log("Found commendation:", targetCommendationName);
+        logger.log("Found commendation:", targetCommendationName);
 
         // Highlight
         container.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -163,11 +163,11 @@ const highlightCommendation = (targetCommendationName) => {
     const isDisabled = nextButton?.disabled || nextButton?.getAttribute("aria-disabled") === "true";
 
     if (!nextButton || isDisabled) {
-      console.warn("Commendation not found in any page:", targetCommendationName);
+      logger.warn("Commendation not found in any page:", targetCommendationName);
       return;
     }
 
-    console.log("Commendation not found on this page, moving to next page...");
+    logger.log("Commendation not found on this page, moving to next page...");
     nextButton.click();
     setTimeout(tryPaginationUntilFound, 800);
   };
@@ -180,7 +180,7 @@ const highlightCommendation = (targetCommendationName) => {
       // Already on first page
       tryPaginationUntilFound();
     } else {
-      console.log("Navigating to first page...");
+      logger.log("Navigating to first page...");
       firstButton.click();
       setTimeout(tryPaginationUntilFound, 800); // wait for page update
     }

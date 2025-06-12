@@ -19,7 +19,6 @@ XMLHttpRequest.prototype.send = function() {
             type: "REPUTATION_JSON",
             data: json
         }, "*");
-        console.log("[Commendation Helper Extension] Reputation JSON sent to content.");
       } catch (err) {
         console.error("[Commendation Helper Extension] Failed to parse reputation response:", err);
       }
