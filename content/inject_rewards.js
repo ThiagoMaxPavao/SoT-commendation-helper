@@ -122,6 +122,7 @@ function processCommendationsWithTranslation(wikiCommendationRewards, translatio
 
     const match = wikiCommendationRewards[name];
 
+    // Create rewardsText container
     const rewardsText = document.createElement('div');
     rewardsText.className = 'sot-rewards-text';
     rewardsText.style.fontSize = '12px';
@@ -135,8 +136,19 @@ function processCommendationsWithTranslation(wikiCommendationRewards, translatio
       warningIcon.style.cursor = 'pointer';
       warningIcon.style.marginRight = '6px';
 
+      // Create text
+      const text = document.createElement('span');
+      text.innerHTML = '<strong>Rewards not found!</strong>';
+      text.style.cursor = 'pointer';
+
+      // Style the rewardsText container
+      rewardsText.style.display = 'flex';
+      rewardsText.style.alignItems = 'center';
+      rewardsText.style.gap = '4px';
+      rewardsText.style.cursor = 'pointer';
+
       // Popup handler
-      warningIcon.onclick = () => {
+      const showPopup = () => {
         // Create popup container
         const popup = document.createElement('div');
         popup.style.position = 'fixed';
@@ -162,6 +174,11 @@ function processCommendationsWithTranslation(wikiCommendationRewards, translatio
           <h2>Commendation Rewards Not Found</h2>
           <p>
             The rewards for this commendation were not found locally.<br>
+            <br>
+            <strong>If your current language is not English, this may also be caused by missing translations.</strong><br>
+            Please switch the website to English and visit the commendations page to update the translation table.<br>
+            You can switch back to your language after that.<br>
+            <br>
             You can visit the wiki page to update local commendations:<br>
             <a href="https://seaofthieves.wiki.gg/wiki/Commendations" target="_blank" style="color:#4fc3f7;">https://seaofthieves.wiki.gg/wiki/Commendations</a>
           </p>
@@ -176,10 +193,12 @@ function processCommendationsWithTranslation(wikiCommendationRewards, translatio
         document.body.appendChild(popup);
       };
 
+      // Make the whole rewardsText clickable
+      rewardsText.onclick = showPopup;
+
       rewardsText.appendChild(warningIcon);
-      const text = document.createElement('span');
-      text.innerHTML = '<strong>Rewards not found!</strong>';
       rewardsText.appendChild(text);
+      el.appendChild(rewardsText);
     } else if (match.rewards === 'n/a')
       rewardsText.innerHTML = '<strong>No Rewards.</strong>';
     else
