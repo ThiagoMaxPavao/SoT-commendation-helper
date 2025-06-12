@@ -73,6 +73,7 @@ function isRewardException(name) {
     "Concertina of the Damned",
     "Drum of the Damned",
     "Hurdy-Gurdy of the Damned",
+    "Tankard of the Damned",
     "Rum Bottle Spyglass",
     "Roses Compass",
   ];
