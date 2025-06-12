@@ -24,7 +24,8 @@
         "content/build_index.js",
         "content/build_campaign_title_map.js",
         "content/inject_rewards.js",
-        "content/navigation.js"
+        "content/navigation.js",
+        "content/translation_manager.js"
       ],
       "run_at": "document_start"
     },

@@ -108,16 +108,86 @@ function isRewardException(name) {
   return false;
 }
 
-chrome.storage.local.get(["wikiCommendationRewards", "commendationIndex"], (data) => {
-  const rewards = data.wikiCommendationRewards || {};
-  const index = data.commendationIndex || {};
+function processCommendationsWithTranslation(wikiCommendationRewards, translationMap) {
+  const commendations = document.querySelectorAll('.emblem-item__title');
+  commendations.forEach(el => {
+    if (el.querySelector('.sot-rewards-text')) return;
 
-  const missingCommendations = Object.keys(index).filter(name => !(name in rewards));
+    let name = sanitizeName(el.innerText.trim());
+    // Translate to English if translationMap is present
+    if (translationMap && translationMap[name]) {
+      name = translationMap[name];
+    }
+    if (isRewardException(name)) return;
 
-  const filteredCommendations = missingCommendations.filter(name => !isRewardException(name));
+    const match = wikiCommendationRewards[name];
 
-  logger.warn("Commendations missing rewards (filtered):", filteredCommendations);
-});
+    const rewardsText = document.createElement('div');
+    rewardsText.className = 'sot-rewards-text';
+    rewardsText.style.fontSize = '12px';
+    rewardsText.style.color = '#ccc';
+
+    if (!match) {
+      // Create warning icon
+      const warningIcon = document.createElement('span');
+      warningIcon.innerHTML = '⚠️';
+      warningIcon.title = 'Rewards not found! Click for more info.';
+      warningIcon.style.cursor = 'pointer';
+      warningIcon.style.marginRight = '6px';
+
+      // Popup handler
+      warningIcon.onclick = () => {
+        // Create popup container
+        const popup = document.createElement('div');
+        popup.style.position = 'fixed';
+        popup.style.top = '0';
+        popup.style.left = '0';
+        popup.style.width = '100vw';
+        popup.style.height = '100vh';
+        popup.style.background = 'rgba(0,0,0,0.6)';
+        popup.style.display = 'flex';
+        popup.style.alignItems = 'center';
+        popup.style.justifyContent = 'center';
+        popup.style.zIndex = '9999';
+
+        // Create popup content
+        const content = document.createElement('div');
+        content.style.background = '#222';
+        content.style.color = '#fff';
+        content.style.padding = '24px 32px';
+        content.style.borderRadius = '8px';
+        content.style.boxShadow = '0 2px 16px rgba(0,0,0,0.5)';
+        content.style.textAlign = 'center';
+        content.innerHTML = `
+          <h2>Commendation Rewards Not Found</h2>
+          <p>
+            The rewards for this commendation were not found locally.<br>
+            You can visit the wiki page to update local commendations:<br>
+            <a href="https://seaofthieves.wiki.gg/wiki/Commendations" target="_blank" style="color:#4fc3f7;">https://seaofthieves.wiki.gg/wiki/Commendations</a>
+          </p>
+          <button id="sot-close-warning-popup" style="margin-top:16px;margin-right:8px;padding:8px 16px;border:none;border-radius:4px;background:#4fc3f7;color:#222;font-weight:bold;cursor:pointer;">Close</button>
+          <button id="sot-reload-warning-popup" style="margin-top:16px;padding:8px 16px;border:none;border-radius:4px;background:#ffb300;color:#222;font-weight:bold;cursor:pointer;">Reload</button>
+        `;
+
+        content.querySelector('#sot-close-warning-popup').onclick = () => popup.remove();
+        content.querySelector('#sot-reload-warning-popup').onclick = () => location.reload();
+
+        popup.appendChild(content);
+        document.body.appendChild(popup);
+      };
+
+      rewardsText.appendChild(warningIcon);
+      const text = document.createElement('span');
+      text.innerHTML = '<strong>Rewards not found!</strong>';
+      rewardsText.appendChild(text);
+    } else if (match.rewards === 'n/a')
+      rewardsText.innerHTML = '<strong>No Rewards.</strong>';
+    else
+      rewardsText.innerHTML = `<strong>Rewards:</strong> ${linkifyRewardsText(match.rewards, match.links)}`;
+
+    el.appendChild(rewardsText);
+  });
+}
 
 chrome.storage.local.get("wikiCommendationRewards", function handleStorage({ wikiCommendationRewards }) {
   if (!wikiCommendationRewards) {
@@ -169,90 +239,28 @@ chrome.storage.local.get("wikiCommendationRewards", function handleStorage({ wik
     return;
   }
 
-  function processCommendations() {
-    const commendations = document.querySelectorAll('.emblem-item__title');
-    commendations.forEach(el => {
-      // Impede adicionar rewards mais de uma vez
-      if (el.querySelector('.sot-rewards-text')) return;
+  const langMatch = location.pathname.match(/^\/([a-zA-Z-]+)(?=\/profile\/reputation)/);
+  const lang = langMatch ? langMatch[1] : "en";
 
-      const name = sanitizeName(el.innerText.trim());
-      if(isRewardException(name)) return;
-
-      const match = wikiCommendationRewards[name];
-
-      const rewardsText = document.createElement('div');
-      rewardsText.className = 'sot-rewards-text';
-      rewardsText.style.fontSize = '12px';
-      rewardsText.style.color = '#ccc';
-
-      if (!match) {
-        // Create warning icon
-        const warningIcon = document.createElement('span');
-        warningIcon.innerHTML = '⚠️';
-        warningIcon.title = 'Rewards not found! Click for more info.';
-        warningIcon.style.cursor = 'pointer';
-        warningIcon.style.marginRight = '6px';
-
-        // Popup handler
-        warningIcon.onclick = () => {
-          // Create popup container
-          const popup = document.createElement('div');
-          popup.style.position = 'fixed';
-          popup.style.top = '0';
-          popup.style.left = '0';
-          popup.style.width = '100vw';
-          popup.style.height = '100vh';
-          popup.style.background = 'rgba(0,0,0,0.6)';
-          popup.style.display = 'flex';
-          popup.style.alignItems = 'center';
-          popup.style.justifyContent = 'center';
-          popup.style.zIndex = '9999';
-
-          // Create popup content
-          const content = document.createElement('div');
-          content.style.background = '#222';
-          content.style.color = '#fff';
-          content.style.padding = '24px 32px';
-          content.style.borderRadius = '8px';
-          content.style.boxShadow = '0 2px 16px rgba(0,0,0,0.5)';
-          content.style.textAlign = 'center';
-          content.innerHTML = `
-            <h2>Commendation Rewards Not Found</h2>
-            <p>
-              The rewards for this commendation were not found locally.<br>
-              You can visit the wiki page to update local commendations:<br>
-              <a href="https://seaofthieves.wiki.gg/wiki/Commendations" target="_blank" style="color:#4fc3f7;">https://seaofthieves.wiki.gg/wiki/Commendations</a>
-            </p>
-            <button id="sot-close-warning-popup" style="margin-top:16px;margin-right:8px;padding:8px 16px;border:none;border-radius:4px;background:#4fc3f7;color:#222;font-weight:bold;cursor:pointer;">Close</button>
-            <button id="sot-reload-warning-popup" style="margin-top:16px;padding:8px 16px;border:none;border-radius:4px;background:#ffb300;color:#222;font-weight:bold;cursor:pointer;">Reload</button>
-          `;
-
-          content.querySelector('#sot-close-warning-popup').onclick = () => popup.remove();
-          content.querySelector('#sot-reload-warning-popup').onclick = () => location.reload();
-
-          popup.appendChild(content);
-          document.body.appendChild(popup);
-        };
-
-        rewardsText.appendChild(warningIcon);
-        const text = document.createElement('span');
-        text.innerHTML = '<strong>Rewards not found!</strong>';
-        rewardsText.appendChild(text);
-      } else if (match.rewards === 'n/a')
-        rewardsText.innerHTML = '<strong>No Rewards.</strong>';
-      else
-        rewardsText.innerHTML = `<strong>Rewards:</strong> ${linkifyRewardsText(match.rewards, match.links)}`;
-
-      el.appendChild(rewardsText);
+  if (lang === "en") {
+    processCommendationsWithTranslation(wikiCommendationRewards, null);
+  } else {
+    chrome.storage.local.get([`translationMap-${lang}`], (result) => {
+      const translationMap = result[`translationMap-${lang}`] || {};
+      processCommendationsWithTranslation(wikiCommendationRewards, translationMap);
     });
   }
 
-  // Primeira execução
-  processCommendations();
-
-  // Observar mudanças no DOM
+  // Observe DOM changes as before
   const observer = new MutationObserver(() => {
-    processCommendations();
+    if (lang === "en") {
+      processCommendationsWithTranslation(wikiCommendationRewards, null);
+    } else {
+      chrome.storage.local.get([`translationMap-${lang}`], (result) => {
+        const translationMap = result[`translationMap-${lang}`] || {};
+        processCommendationsWithTranslation(wikiCommendationRewards, translationMap);
+      });
+    }
   });
 
   observer.observe(document.body, {
