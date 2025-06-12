@@ -41,6 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
       const li = document.createElement("li");
       li.textContent = commendationIndex[match].name;
       li.addEventListener("click", () => {
+        li.classList.add("clicked");
+        setTimeout(() => li.classList.remove("clicked"), 300);
+
         const path = commendationIndex[match].path;
 
         chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
@@ -63,5 +66,16 @@ document.addEventListener("DOMContentLoaded", () => {
       });
       resultsList.appendChild(li);
     });
+  });
+
+  searchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      const firstResult = resultsList.querySelector("li");
+      if (firstResult) {
+        firstResult.click();
+        firstResult.add("clicked");
+        setTimeout(() => firstResult.remove("clicked"), 300);
+      }
+    }
   });
 });
