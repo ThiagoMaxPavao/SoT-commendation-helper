@@ -42,11 +42,14 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     const targetCommendationName = message.commendationName;
 
     const navigateBackUntilPathMatches = () => {
-      if (location.pathname === "/profile/reputation") {
+      // Normalize the path by removing a possible language prefix
+      const normalizedPath = location.pathname.replace(/^\/[a-zA-Z-]+(\/profile\/reputation.*)/, '$1');
+
+      if (normalizedPath === "/profile/reputation") {
         clickCompany();
-      } else if (location.pathname === `/profile/reputation/${targetPath.split("/")[0]}`) {
+      } else if (normalizedPath === `/profile/reputation/${targetPath.split("/")[0]}`) {
         clickCampaignIfNeeded();
-      } else if (location.pathname === `/profile/reputation/${targetPath}`) {
+      } else if (normalizedPath === `/profile/reputation/${targetPath}`) {
         highlightCommendation(targetCommendationName);
       } else {
         const backButton = document.querySelector("button.button.button--shamrock");

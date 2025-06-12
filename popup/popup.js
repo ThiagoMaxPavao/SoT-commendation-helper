@@ -45,7 +45,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
           const activeTab = tabs[0];
-          if (activeTab && activeTab.url.startsWith("https://www.seaofthieves.com/profile/reputation")) {
+          if (
+            activeTab &&
+            new RegExp(`^https://www.seaofthieves.com(/[a-zA-Z-]+)?/profile/reputation(/.*)?`).test(activeTab.url)
+          ) {
             chrome.tabs.sendMessage(activeTab.id, {
               action: "navigateCommendation",
               path: path,
