@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         commendationIndex = data.commendationIndex;
         instruction.style.display = "none";
         searchInput.disabled = false;
+        searchInput.focus();
       } else {
         instruction.style.display = "block";
         searchInput.disabled = true;
