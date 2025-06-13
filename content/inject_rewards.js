@@ -303,11 +303,11 @@ chrome.storage.local.get("wikiCommendationRewards", function handleStorage({ wik
   });
 
   chrome.storage.onChanged.addListener((changes, area) => {
-  if (area === "local" && changes[`translationMap-${lang}`]) {
-    chrome.storage.local.get([`translationMap-${lang}`], (result) => {
-      const translationMap = result[`translationMap-${lang}`] || {};
-      processCommendationsWithTranslation(wikiCommendationRewards, translationMap);
-    });
-  }
-});
+    if (area === "local" && changes[`translationMap-${lang}`]) {
+      chrome.storage.local.get([`translationMap-${lang}`], (result) => {
+        const translationMap = result[`translationMap-${lang}`] || {};
+        processCommendationsWithTranslation(wikiCommendationRewards, translationMap);
+      });
+    }
+  });
 });
