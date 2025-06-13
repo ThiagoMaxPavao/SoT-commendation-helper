@@ -60,45 +60,48 @@ input[type="text"] {
   background-color: #a96f3a;
 }
 
-ul#results {
+ul#results,
+ul#favorites-list {
   list-style-type: none;
   padding: 0;
   margin-top: 10px;
 }
 
-ul#results li {
+ul#results li,
+ul#favorites-list li {
   background-color: rgba(50, 30, 15, 0.8);
   padding: 8px;
   border: 1px solid #8c5b2c;
   border-radius: 5px;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 
-/* Optional: Add a subtle scroll bar for results if too many */
-ul#results {
+ul#results,
+ul#favorites-list {
   max-height: 200px;
   overflow-y: auto;
 }
 
 /* Scrollbar styling (WebKit browsers) */
-ul#results::-webkit-scrollbar {
+ul#results::-webkit-scrollbar,
+ul#favorites-list::-webkit-scrollbar {
   width: 8px;
 }
 
-ul#results::-webkit-scrollbar-track {
+ul#results::-webkit-scrollbar-track,
+ul#favorites-list::-webkit-scrollbar-track {
   background: #2b1a0f;
 }
 
-ul#results::-webkit-scrollbar-thumb {
+ul#results::-webkit-scrollbar-thumb,
+ul#favorites-list::-webkit-scrollbar-thumb {
   background-color: #8c5b2c;
   border-radius: 4px;
 }
 
-ul#results li {
-  cursor: pointer;
-}
-
-ul#results li.clicked {
+ul#results li.clicked,
+ul#favorites-list li.clicked {
   animation: clickFlash 0.3s ease;
 }
 

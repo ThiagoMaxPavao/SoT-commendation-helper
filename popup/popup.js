@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Render favorites list
   function renderFavorites(commendationIndex) {
     favoritesList.innerHTML = "";
-    if (favorites.length === 0) {
+    if (favorites.length === 0 || searchInput.value.trim() !== "") {
       favoritesSection.style.display = "none";
       return;
     }
@@ -69,11 +69,14 @@ document.addEventListener("DOMContentLoaded", () => {
       const commendation = commendationIndex[fav];
       if (!commendation) return;
       const li = document.createElement("li");
-      li.textContent = commendation.name;
       li.style.display = "flex";
       li.style.justifyContent = "space-between";
       li.style.alignItems = "center";
       li.style.cursor = "pointer";
+
+      // Commendation name (use span for consistency)
+      const nameSpan = document.createElement("span");
+      nameSpan.textContent = commendation.name;
 
       // Star icon
       const star = document.createElement("span");
@@ -90,9 +93,12 @@ document.addEventListener("DOMContentLoaded", () => {
       };
 
       li.onclick = () => {
-        // Your logic to go to the commendation
-        goToCommendation(commendation);
+        li.classList.add("clicked");
+        setTimeout(() => li.classList.remove("clicked"), 300);
+        goToCommendation(commendation, fav);
       };
+
+      li.appendChild(nameSpan);
       li.appendChild(star);
       favoritesList.appendChild(li);
     });
@@ -173,26 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
       li.addEventListener("click", () => {
         li.classList.add("clicked");
         setTimeout(() => li.classList.remove("clicked"), 300);
-
-        const path = commendationIndex[match].path;
-
-        chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-          const activeTab = tabs[0];
-          if (
-            activeTab &&
-            new RegExp(`^https://www.seaofthieves.com(/[a-zA-Z-]+)?/profile/reputation(/.*)?`).test(activeTab.url)
-          ) {
-            chrome.tabs.sendMessage(activeTab.id, {
-              action: "navigateCommendation",
-              path: path,
-              commendationName: match,
-            });
-          } else {
-            chrome.tabs.create({
-              url: `https://www.seaofthieves.com/profile/reputation/${path}?highlight=${encodeURIComponent(match)}`,
-            });
-          }
-        });
+        goToCommendation(commendationIndex[match], match);
       });
       resultsList.appendChild(li);
     });
@@ -259,4 +246,27 @@ fetch("star.svg")
 
 function getStarSVG(filled = false) {
   return filled ? filledStarSVG : hollowStarSVG;
+}
+
+function goToCommendation(commendation, matchKey = null) {
+  const path = commendation.path;
+  const match = matchKey || commendation.name;
+
+  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+    const activeTab = tabs[0];
+    if (
+      activeTab &&
+      new RegExp(`^https://www.seaofthieves.com(/[a-zA-Z-]+)?/profile/reputation(/.*)?`).test(activeTab.url)
+    ) {
+      chrome.tabs.sendMessage(activeTab.id, {
+        action: "navigateCommendation",
+        path: path,
+        commendationName: match,
+      });
+    } else {
+      chrome.tabs.create({
+        url: `https://www.seaofthieves.com/profile/reputation/${path}?highlight=${encodeURIComponent(match)}`,
+      });
+    }
+  });
 }
