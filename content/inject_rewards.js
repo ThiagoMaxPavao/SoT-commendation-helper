@@ -23,85 +23,84 @@ function linkifyRewardsText(rewardText, links) {
 }
 
 function isRewardException(name) {
-  if (name.endsWith("Title")) return true;
-  if (name.endsWith("Title.")) return true; // Exclude titles
+  if (name.endsWith("title")) return true;
 
   const curses = [
-    "The Ashen Curse",
-    "Shores of Gold Curse",
-    "Wild Seas Curse",
-    "Order of Souls Eye Curse",
-    "Curse of Sunken Sorrow",
+    "the ashen curse",
+    "shores of gold curse",
+    "wild seas curse",
+    "order of souls eye curse",
+    "curse of sunken sorrow",
   ];
   if (curses.includes(name)) return true;
 
   const clothing = [
-    "Gold Hoarder Jacket",
-    "Briggsys Hat",
-    "Circus Superstar Costume",
-    "Cursed Captains Hat",
-    "Pirate Lords Hat",
-    "Pirate Lords Jacket",
-    "Tavern Chefs Uniform",
+    "gold hoarder jacket",
+    "briggsys hat",
+    "circus superstar costume",
+    "cursed captains hat",
+    "pirate lords hat",
+    "pirate lords jacket",
+    "tavern chefs uniform",
   ];
   if (clothing.includes(name)) return true;
 
   const ship = [
-    "Gold Hoarder Figurehead",
-    "Ashen Dragon Hull",
-    "Ashen Dragon Sails",
-    "Briggsys Sails",
-    "Cannons of Sunken Sorrow",
-    "Cursed Captains Sails",
-    "Figurehead of Sunken Sorrow",
-    "Hull of Sunken Sorrow",
-    "Magpies Fortune Sails",
-    "Magpies Wing Cannons",
-    "Morningstar Figurehead",
-    "Morningstar Flag",
-    "Morningstar Hull",
-    "Morningstar Sails",
-    "Revenge of the Silver Blade Capstan",
-    "Trapmakers Capstan",
-    "Wild Rose Wheel",
+    "gold hoarder figurehead",
+    "ashen dragon hull",
+    "ashen dragon sails",
+    "briggsys sails",
+    "cannons of sunken sorrow",
+    "cursed captains sails",
+    "figurehead of sunken sorrow",
+    "hull of sunken sorrow",
+    "magpies fortune sails",
+    "magpies wing cannons",
+    "morningstar figurehead",
+    "morningstar flag",
+    "morningstar hull",
+    "morningstar sails",
+    "revenge of the silver blade capstan",
+    "trapmakers capstan",
+    "wild rose wheel",
   ];
   if (ship.includes(name)) return true;
 
   const equipment = [
-    "Ancient Spyglass",
-    "Banjo of the Damned",
-    "Concertina of the Damned",
-    "Drum of the Damned",
-    "Hurdy-Gurdy of the Damned",
-    "Tankard of the Damned",
-    "Rum Bottle Spyglass",
-    "Roses Compass",
+    "ancient spyglass",
+    "banjo of the damned",
+    "concertina of the damned",
+    "drum of the damned",
+    "hurdy-gurdy of the damned",
+    "tankard of the damned",
+    "rum bottle spyglass",
+    "roses compass",
   ];
   if (equipment.includes(name)) return true;
 
   const shanties = [
-    "Monkey Island Shanty",
-    "Yo Ho A Pirates Life Shanty",
+    "monkey island shanty",
+    "yo ho a pirates life shanty",
   ];
   if (shanties.includes(name)) return true;
 
   const weapons = [
-    "Briggsys Sword",
-    "Burning Blade Cutlass",
-    "Pendragons Sword of Souls",
-    "Pistol of Sunken Sorrow",
-    "Revenge of the Silver Blade Cutlass",
-    "The Legend of Monkey Island Cutlass",
+    "briggsys sword",
+    "burning blade cutlass",
+    "pendragons sword of souls",
+    "pistol of sunken sorrow",
+    "revenge of the silver blade cutlass",
+    "the legend of monkey island cutlass",
   ];
   if (weapons.includes(name)) return true;
 
   const other = [
-    "Constellation Tattoo Set",
-    "Governor Guybrush Portrait",
-    "Idol o Many Hands",
-    "LeChuck Portrait",
-    "Legend of Monkey Island Figurines",
-    "Mêlée by Moonlight",
+    "constellation tattoo set",
+    "governor guybrush portrait",
+    "idol o many hands",
+    "leChuck portrait",
+    "legend of monkey island figurines",
+    "melee by moonlight",
   ];
   if (other.includes(name)) return true;
 

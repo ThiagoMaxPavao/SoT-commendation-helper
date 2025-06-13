@@ -56,10 +56,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (query.length === 0) return;
 
+    const sanitizedQuery = sanitizeName(query);
+
     const matches = Object.keys(commendationIndex).filter(name => {
-      const localName = name.toLowerCase();
-      const englishName = (translationMap[name] || "").toLowerCase();
-      return localName.includes(sanitizeName(query)) || englishName.includes(sanitizeName(query));
+      const englishName = translationMap[name] || "";
+      return name.includes(sanitizedQuery) || englishName.includes(sanitizedQuery);
     });
 
     if (matches.length === 0) {
@@ -73,15 +74,13 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    const sanitizedQuery = sanitizeName(query);
-
     matches.forEach((match) => {
       const localName = commendationIndex[match].name;
       const englishName = translationMap[match];
 
       // Determine which one matches the query
-      const localMatch = localName.toLowerCase().includes(sanitizedQuery);
-      const englishMatch = englishName && englishName.toLowerCase().includes(sanitizedQuery);
+      const localMatch = match.includes(sanitizedQuery);
+      const englishMatch = englishName && englishName.includes(sanitizedQuery);
 
       // Choose the display name based on match
       let displayName;
