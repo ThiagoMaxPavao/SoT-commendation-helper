@@ -16,29 +16,46 @@ window.addEventListener("message", (event) => {
             });
         }
         else {
-            chrome.storage.local.get(["languageMap"], (result) => {
-                const englishMap = result["languageMap"];
-                if (!englishMap) {
-                    console.warn("No English languageMap found in storage.");
-                    return;
-                }
+            chrome.storage.local.get(
+                [
+                    "languageMap",
+                    "languageMap-LastUpdated",
+                    `translationMap-${lang}-LastUpdated`
+                ],
+                (result) => {
+                    const englishMap = result["languageMap"];
+                    const englishMapLastUpdated = result["languageMap-LastUpdated"] || 0;
+                    const translationMapLastUpdated = result[`translationMap-${lang}-LastUpdated`] || 0;
 
-                const foreignToEnglishMap = {};
-
-                // Loop through each foreign language commendation name → ID
-                for (const [foreignName, id] of Object.entries(languageMap)) {
-                    const englishName = englishMap[id];
-                    if (englishName) {
-                        foreignToEnglishMap[foreignName] = englishName;
+                    if (!englishMap) {
+                        logger.warn("No English languageMap found in storage.");
+                        return;
                     }
-                }
 
-                // Save this mapping for the current language
-                chrome.storage.local.set({
-                    [`translationMap-${lang}`]: foreignToEnglishMap,
-                    [`translationMap-${lang}-LastUpdated`]: Date.now()
-                });
-            });
+                    // Only update if languageMap is newer than translationMap for this lang
+                    if (translationMapLastUpdated >= englishMapLastUpdated) {
+                        // Translation map is up-to-date, do nothing
+                        logger.log("Translation map is up-to-date for language:", lang);
+                        return;
+                    }
+
+                    const foreignToEnglishMap = {};
+
+                    // Loop through each foreign language commendation name → ID
+                    for (const [foreignName, id] of Object.entries(languageMap)) {
+                        const englishName = englishMap[id];
+                        if (englishName) {
+                            foreignToEnglishMap[foreignName] = englishName;
+                        }
+                    }
+
+                    // Save this mapping for the current language
+                    chrome.storage.local.set({
+                        [`translationMap-${lang}`]: foreignToEnglishMap,
+                        [`translationMap-${lang}-LastUpdated`]: Date.now()
+                    });
+                }
+            );
         }
     }
 });
