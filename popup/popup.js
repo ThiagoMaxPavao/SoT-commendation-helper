@@ -208,105 +208,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   searchInput.addEventListener("input", () => {
-    const query = searchInput.value.toLowerCase();
-    resultsList.innerHTML = "";
-    highlightedIndex = -1;
-
-    if (query.length === 0) return;
-
-    const sanitizedQuery = sanitizeName(query);
-
-    const matches = Object.keys(commendationIndex).filter((name) => {
-      const englishName = translationMap[name] || "";
-      return name.includes(sanitizedQuery) || englishName.includes(sanitizedQuery);
-    });
-
-    if (matches.length === 0) {
-      const li = document.createElement("li");
-      li.innerHTML = "You're on unknown waters!<br>No commendations were found.";
-      li.style.fontStyle = "italic";
-      li.style.textAlign = "center";
-      li.style.color = "#bfa76f";
-      li.style.cursor = "default"; // Remove pointer mouse
-      resultsList.appendChild(li);
-      return;
+    if (searchInput.value.trim() === "") {
+      renderFavorites(commendationIndex);
+    } else {
+      favoritesSection.style.display = "none";
     }
-
-    matches.forEach((match) => {
-      const localName = commendationIndex[match].name;
-      const englishName = translationMap[match];
-
-      // Determine which one matches the query
-      const localMatch = match.includes(sanitizedQuery);
-      const englishMatch = englishName && englishName.includes(sanitizedQuery);
-
-      // Choose the display name based on match
-      let displayName;
-      if (localMatch) {
-        displayName = localName;
-      } else if (englishMatch) {
-        displayName = englishName;
-      } else {
-        // Shouldn't happen because we filtered matches already
-        return;
-      }
-
-      const li = document.createElement("li");
-      li.style.display = "flex";
-      li.style.justifyContent = "space-between";
-      li.style.alignItems = "center";
-
-      // Commendation name
-      const nameSpan = document.createElement("span");
-      nameSpan.textContent = displayName;
-
-      // Star icon
-      const star = document.createElement("span");
-      star.innerHTML = getStarSVG(favorites.includes(match));
-      star.className = "star-icon";
-      star.title = favorites.includes(match) ? "Remove from favorites" : "Add to favorites";
-      star.onclick = (e) => {
-        e.stopPropagation();
-        if (favorites.includes(match)) {
-          favorites = favorites.filter((f) => f !== match);
-        } else {
-          favorites.push(match);
-        }
-        saveFavorites();
-        renderFavorites(commendationIndex);
-        renderResults(commendationIndex, searchInput.value);
-      };
-
-      li.appendChild(nameSpan);
-      li.appendChild(star);
-
-      li.addEventListener("click", () => {
-        li.classList.add("clicked");
-        setTimeout(() => li.classList.remove("clicked"), 300);
-
-        const path = commendationIndex[match].path;
-
-        chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-          const activeTab = tabs[0];
-          if (
-            activeTab &&
-            new RegExp(`^https://www.seaofthieves.com(/[a-zA-Z-]+)?/profile/reputation(/.*)?`).test(activeTab.url)
-          ) {
-            chrome.tabs.sendMessage(activeTab.id, {
-              action: "navigateCommendation",
-              path: path,
-              commendationName: match,
-            });
-          } else {
-            chrome.tabs.create({
-              url: `https://www.seaofthieves.com/profile/reputation/${path}?highlight=${encodeURIComponent(match)}`,
-            });
-          }
-        });
-      });
-      resultsList.appendChild(li);
-    });
-    updateHighlight();
+    renderResults(commendationIndex, searchInput.value);
   });
 
   searchInput.addEventListener("keydown", (e) => {
@@ -327,16 +234,6 @@ document.addEventListener("DOMContentLoaded", () => {
       if (highlightedIndex === -1) highlightedIndex = 0;
       items[highlightedIndex].click();
     }
-  });
-
-  // Show/hide favorites based on search
-  searchInput.addEventListener("input", () => {
-    if (searchInput.value.trim() === "") {
-      renderFavorites(commendationIndex);
-    } else {
-      favoritesSection.style.display = "none";
-    }
-    renderResults(commendationIndex, searchInput.value);
   });
 
   // On load
