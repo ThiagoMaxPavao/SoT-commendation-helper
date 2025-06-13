@@ -8,6 +8,7 @@ window.addEventListener("message", (event) => {
 
         const langMatch = location.pathname.match(/^\/([a-zA-Z-]+)(?=\/profile\/reputation)/);
         const lang = langMatch ? langMatch[1] : "en";
+        chrome.storage.local.set({ currentLanguage: lang });
 
         if(lang === "en") {
             chrome.storage.local.set({

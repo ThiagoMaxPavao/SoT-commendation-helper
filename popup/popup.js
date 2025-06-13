@@ -5,15 +5,23 @@ document.addEventListener("DOMContentLoaded", () => {
   const retryButton = document.getElementById("retry-button");
 
   let commendationIndex = {};
+  let translationMap = {};
+  let currentLanguage = "en";
   let highlightedIndex = -1;
 
   function loadCommendationIndex() {
-    chrome.storage.local.get("commendationIndex", (data) => {
+    chrome.storage.local.get(["commendationIndex", "currentLanguage"], (data) => {
       if (data.commendationIndex && Object.keys(data.commendationIndex).length > 0) {
         commendationIndex = data.commendationIndex;
-        instruction.style.display = "none";
-        searchInput.disabled = false;
-        searchInput.focus();
+        currentLanguage = data.currentLanguage || "en";
+
+        // Now load the translationMap for that language
+        chrome.storage.local.get(`translationMap-${currentLanguage}`, (result) => {
+          translationMap = result[`translationMap-${currentLanguage}`] || {};
+          instruction.style.display = "none";
+          searchInput.disabled = false;
+          searchInput.focus();
+        });
       } else {
         instruction.style.display = "block";
         searchInput.disabled = true;
@@ -48,9 +56,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (query.length === 0) return;
 
-    const matches = Object.keys(commendationIndex).filter(name =>
-      name.toLowerCase().includes(sanitizeName(query))
-    );
+    const matches = Object.keys(commendationIndex).filter(name => {
+      const localName = name.toLowerCase();
+      const englishName = (translationMap[name] || "").toLowerCase();
+      return localName.includes(sanitizeName(query)) || englishName.includes(sanitizeName(query));
+    });
 
     if (matches.length === 0) {
       const li = document.createElement("li");
@@ -63,9 +73,30 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    matches.forEach((match, idx) => {
+    const sanitizedQuery = sanitizeName(query);
+
+    matches.forEach((match) => {
+      const localName = commendationIndex[match].name;
+      const englishName = translationMap[match];
+
+      // Determine which one matches the query
+      const localMatch = localName.toLowerCase().includes(sanitizedQuery);
+      const englishMatch = englishName && englishName.toLowerCase().includes(sanitizedQuery);
+
+      // Choose the display name based on match
+      let displayName;
+      if (localMatch) {
+        displayName = localName;
+      } else if (englishMatch) {
+        displayName = englishName;
+      } else {
+        // Shouldn't happen because we filtered matches already
+        return;
+      }
+
       const li = document.createElement("li");
-      li.textContent = commendationIndex[match].name;
+      li.textContent = displayName;
+
       li.addEventListener("click", () => {
         li.classList.add("clicked");
         setTimeout(() => li.classList.remove("clicked"), 300);
