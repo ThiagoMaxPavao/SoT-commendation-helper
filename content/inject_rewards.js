@@ -107,10 +107,18 @@ function isRewardException(name) {
   return false;
 }
 
+// Declare observer in a wider scope so you can access it inside the callback
+let observer;
+
 function processCommendationsWithTranslation(wikiCommendationRewards, translationMap) {
+  // Disconnect observer to prevent infinite loop
+  if (observer) observer.disconnect();
+
   const commendations = document.querySelectorAll('.emblem-item__title');
   commendations.forEach(el => {
-    if (el.querySelector('.sot-rewards-text')) return;
+    // Remove existing rewards text if present
+    const existing = el.querySelector('.sot-rewards-text');
+    if (existing) existing.remove();
 
     let name = sanitizeName(el.innerText.trim());
     // Translate to English if translationMap is present
@@ -198,13 +206,22 @@ function processCommendationsWithTranslation(wikiCommendationRewards, translatio
       rewardsText.appendChild(warningIcon);
       rewardsText.appendChild(text);
       el.appendChild(rewardsText);
-    } else if (match.rewards === 'n/a')
+    } else if (match.rewards === 'n/a') {
       rewardsText.innerHTML = '<strong>No Rewards.</strong>';
-    else
+      el.appendChild(rewardsText);
+    } else {
       rewardsText.innerHTML = `<strong>Rewards:</strong> ${linkifyRewardsText(match.rewards, match.links)}`;
-
-    el.appendChild(rewardsText);
+      el.appendChild(rewardsText);
+    }
   });
+
+  // Reconnect observer after DOM updates
+  if (observer) {
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+  }
 }
 
 chrome.storage.local.get("wikiCommendationRewards", function handleStorage({ wikiCommendationRewards }) {
@@ -269,8 +286,7 @@ chrome.storage.local.get("wikiCommendationRewards", function handleStorage({ wik
     });
   }
 
-  // Observe DOM changes as before
-  const observer = new MutationObserver(() => {
+  observer = new MutationObserver(() => {
     if (lang === "en") {
       processCommendationsWithTranslation(wikiCommendationRewards, null);
     } else {
@@ -285,4 +301,13 @@ chrome.storage.local.get("wikiCommendationRewards", function handleStorage({ wik
     childList: true,
     subtree: true
   });
+
+  chrome.storage.onChanged.addListener((changes, area) => {
+  if (area === "local" && changes[`translationMap-${lang}`]) {
+    chrome.storage.local.get([`translationMap-${lang}`], (result) => {
+      const translationMap = result[`translationMap-${lang}`] || {};
+      processCommendationsWithTranslation(wikiCommendationRewards, translationMap);
+    });
+  }
+});
 });
