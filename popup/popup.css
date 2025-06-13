@@ -117,3 +117,14 @@ li.highlighted {
   border: 2px solid #0078d7 !important;
   background: #e6f0fa;
 }
+
+.star-icon svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+.star-icon {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
