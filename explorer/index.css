@@ -7,6 +7,7 @@ body {
   padding: 24px;
   margin: 0;
   font-size: 18px;
+  overflow: hidden;
 }
 
 h1 {
@@ -18,35 +19,138 @@ h1 {
   padding-bottom: 12px;
 }
 
+.main-layout {
+  display: flex;
+  align-items: flex-start;
+  height: 90vh;
+  gap: 32px;
+  padding: 0 24px;
+}
+
 #table-container {
-  overflow-x: auto;
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-table {
+#commendation-table {
   width: 100%;
-  border-collapse: collapse;
+  border-spacing: 0;
   background-color: rgba(40, 20, 10, 0.85);
-  border: 1px solid #8c5b2c;
+  border: 1px solid #8c5b2c; /* Outer border */
 }
 
-thead th {
-  padding: 14px 10px;
-  border-bottom: 2px solid #8c5b2c;
+/* Header cells */
+#commendation-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: rgba(60, 30, 15, 0.95);
   color: #ffd96f;
   text-align: left;
   font-size: 20px;
+  padding: 10px 14px;
+  border-bottom: 2px solid #8c5b2c;
+  /* Remove other borders to avoid double thickness */
 }
 
-tbody td {
-  padding: 3px 10px;
+/* Table body cells */
+#commendation-table tbody td {
+  padding: 5px 10px;
   border-bottom: 1px solid #8c5b2c;
-  vertical-align: middle;
-  font-size: 18px;
-  overflow: hidden;
+  /* Remove left/right borders to avoid double thickness */
 }
 
-tbody tr:hover {
-  background-color: rgba(60, 30, 15, 0.9);
+/* First column: add left border */
+#commendation-table th:first-child,
+#commendation-table td:first-child {
+  border-left: 1px solid #8c5b2c;
+}
+
+/* Last column: add right border */
+#commendation-table th:last-child,
+#commendation-table td:last-child {
+  border-right: 1px solid #8c5b2c;
+}
+
+/* Row hover */
+#commendation-table tbody tr:hover {
+  background-color: rgba(70, 40, 20, 0.9);
+}
+
+.table-scroll {
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+  max-height: 100%;
+}
+
+#filter-menu {
+  min-width: 220px;
+  border: 1px solid #8c5b2c;
+  padding: 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 24px;
+  height: fit-content;
+  background-color: rgba(50, 30, 15, 0.9);
+  color: #f0d79f;
+}
+
+#filter-menu h3 {
+  margin-top: 0;
+  color: #ffd96f;
+}
+
+#update-info {
+  margin-bottom: 18px;
+  font-size: 0.97em;
+  color: #d2b98a;
+}
+
+#update-link {
+  color: #ffd96f;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+#update-link:hover,
+#update-link:focus {
+  color: #ffe28a;
+  text-decoration: none;
+}
+
+td.description {
+  max-width: 280px;
+}
+
+td.description:hover {
+  white-space: normal;
+  background: rgba(50, 30, 15, 0.95);
+  padding: 12px;
+}
+
+td.col-description {
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* Scrollbar styling */
+.table-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.table-scroll::-webkit-scrollbar-track {
+  background: #2b1a0f;
+}
+
+.table-scroll::-webkit-scrollbar-thumb {
+  background-color: #8c5b2c;
+  border-radius: 4px;
 }
 
 img.commendation-icon {
@@ -71,46 +175,4 @@ img.commendation-icon {
   height: 28px;
   display: block;
   margin: 0 auto;
-}
-
-td.description {
-  max-width: 280px;
-}
-
-td.description:hover {
-  white-space: normal;
-  background: rgba(50, 30, 15, 0.95);
-  padding: 12px;
-}
-
-/* Scrollbar styling */
-table::-webkit-scrollbar {
-  height: 8px;
-}
-
-table::-webkit-scrollbar-track {
-  background: #2b1a0f;
-}
-
-table::-webkit-scrollbar-thumb {
-  background-color: #8c5b2c;
-  border-radius: 4px;
-}
-
-td.col-description {
-  white-space: normal;
-  word-break: break-word;
-}
-
-#update-link {
-  color: #34da9e;
-  font-weight: bold;
-  text-decoration: underline;
-  transition: color 0.2s;
-}
-
-#update-link:hover,
-#update-link:focus {
-  color: #24976e;
-  text-decoration: none;
 }

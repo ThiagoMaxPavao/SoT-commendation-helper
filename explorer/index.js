@@ -1,3 +1,18 @@
+// Get filter state from UI
+function getFilters() {
+  const hideUncompleted = document.getElementById('hide-uncompleted')?.checked;
+  const hideCompleted = document.getElementById('hide-completed')?.checked;
+  const locationCheckboxes = document.querySelectorAll('.location-filter');
+  const enabledLocations = Array.from(locationCheckboxes)
+    .filter(cb => cb.checked)
+    .map(cb => cb.value);
+  return {
+    hideUncompleted,
+    hideCompleted,
+    enabledLocations
+  };
+}
+
 // Load commendations and populate table
 function updateTable() {
   chrome.storage.local.get(['processedReputation'], (result) => {
@@ -10,7 +25,15 @@ function updateTable() {
       return;
     }
 
+    const filters = getFilters();
+
     data.forEach((item) => {
+      // Filter by completed/uncompleted
+      if (filters.hideUncompleted && !item.completed) return;
+      if (filters.hideCompleted && item.completed) return;
+      // Filter by location
+      if (!filters.enabledLocations.includes(item.location)) return;
+
       const tr = document.createElement("tr");
 
       // Image
@@ -79,6 +102,17 @@ function updateTable() {
   });
 }
 
+// Add event listeners for filters
+function setupFilters() {
+  const filterIds = ['hide-uncompleted', 'hide-completed'];
+  filterIds.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('change', updateTable);
+  });
+  const locationCheckboxes = document.querySelectorAll('.location-filter');
+  locationCheckboxes.forEach(cb => cb.addEventListener('change', updateTable));
+}
+
 function updateLastUpdated() {
   chrome.storage.local.get(['processedReputationLastUpdated'], (result) => {
     const lastUpdatedElem = document.getElementById('last-updated');
@@ -95,6 +129,7 @@ function updateLastUpdated() {
 // Initial load
 updateTable();
 updateLastUpdated();
+setupFilters();
 
 // Listen for storage changes
 chrome.storage.onChanged.addListener((changes, area) => {
