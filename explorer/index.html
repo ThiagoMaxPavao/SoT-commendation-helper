@@ -5,61 +5,63 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h1 style="padding-left:24px;">Commendation Explorer</h1>
-  <div class="main-layout">
-    <div id="table-container">
-      <div class="table-scroll">
-        <table id="commendation-table">
-          <thead>
-            <tr>
-              <th></th>
-              <th>Name</th>
-              <th>Description</th>
-              <th>Location</th>
-              <th>Campaign</th>
-              <th>Completed</th>
-              <th>Progress</th>
-              <th>Grade</th>
-            </tr>
-          </thead>
-          <tbody>
-            <!-- rows will be injected by JS -->
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div>
-      <div id="update-info">
-        <span id="last-updated"></span>
-        <br>
-        Update by visiting your
-        <a href="https://www.seaofthieves.com/pt-br/profile/reputation" target="_blank" id="update-link">
-          reputation page
-        </a>
-      </div>
-      <div id="filter-menu">
-        <h3>Filters</h3>
-        <div>
-          <label><input type="checkbox" id="hide-uncompleted"> Hide uncompleted</label><br>
-          <label><input type="checkbox" id="hide-completed"> Hide completed</label>
+  <h1>Commendation Explorer</h1>
+  <div class="main-content">
+    <div class="main-layout">
+      <div id="table-container">
+        <div class="table-scroll">
+          <table id="commendation-table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Location</th>
+                <th>Campaign</th>
+                <th>Completed</th>
+                <th>Progress</th>
+                <th>Grade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- rows will be injected by JS -->
+            </tbody>
+          </table>
         </div>
-        <hr>
-        <div>
-          <label><input type="checkbox" class="location-filter" value="BilgeRats" checked> Bilge Rats </label><br>
-          <label><input type="checkbox" class="location-filter" value="TallTales" checked> Tall Tales </label><br>
-          <label><input type="checkbox" class="location-filter" value="CreatorCrew"> Creator Crew </label><br>
+      </div>
+      <div>
+        <div id="update-info">
+          <span id="last-updated"></span>
           <br>
-          <label><input type="checkbox" class="location-filter" value="AthenasFortune" checked> Athena's Fortune </label><br>
-          <label><input type="checkbox" class="location-filter" value="ReapersBones" checked> Reaper's Bones </label><br>
-          <label><input type="checkbox" class="location-filter" value="GoldHoarders" checked> Gold Hoarders </label><br>
-          <label><input type="checkbox" class="location-filter" value="HuntersCall" checked> Hunter's Call </label><br>
-          <label><input type="checkbox" class="location-filter" value="MerchantAlliance" checked> Merchant Alliance </label><br>
-          <label><input type="checkbox" class="location-filter" value="OrderOfSouls" checked> Order of Souls </label><br>
-          <br>
-          <label><input type="checkbox" class="location-filter" value="PirateLord" checked> Guardians of Fortune </label><br>
-          <label><input type="checkbox" class="location-filter" value="Flameheart" checked> Servants of the Flame </label><br>
-          <br>
-          <label><input type="checkbox" class="location-filter" value="SeaDogs"> SeaDogs</label><br>
+          Update by visiting your
+          <a href="https://www.seaofthieves.com/pt-br/profile/reputation" target="_blank" id="update-link">
+            reputation page
+          </a>
+        </div>
+        <div id="filter-menu">
+          <h3>Filters</h3>
+          <div>
+            <label><input type="checkbox" id="hide-uncompleted"> Hide uncompleted</label><br>
+            <label><input type="checkbox" id="hide-completed"> Hide completed</label>
+          </div>
+          <hr>
+          <div>
+            <label><input type="checkbox" class="location-filter" value="BilgeRats" checked> Bilge Rats </label><br>
+            <label><input type="checkbox" class="location-filter" value="TallTales" checked> Tall Tales </label><br>
+            <label><input type="checkbox" class="location-filter" value="CreatorCrew"> Creator Crew </label><br>
+            <br>
+            <label><input type="checkbox" class="location-filter" value="AthenasFortune" checked> Athena's Fortune </label><br>
+            <label><input type="checkbox" class="location-filter" value="ReapersBones" checked> Reaper's Bones </label><br>
+            <label><input type="checkbox" class="location-filter" value="GoldHoarders" checked> Gold Hoarders </label><br>
+            <label><input type="checkbox" class="location-filter" value="HuntersCall" checked> Hunter's Call </label><br>
+            <label><input type="checkbox" class="location-filter" value="MerchantAlliance" checked> Merchant Alliance </label><br>
+            <label><input type="checkbox" class="location-filter" value="OrderOfSouls" checked> Order of Souls </label><br>
+            <br>
+            <label><input type="checkbox" class="location-filter" value="PirateLord" checked> Guardians of Fortune </label><br>
+            <label><input type="checkbox" class="location-filter" value="Flameheart" checked> Servants of the Flame </label><br>
+            <br>
+            <label><input type="checkbox" class="location-filter" value="SeaDogs"> SeaDogs</label><br>
+          </div>
         </div>
       </div>
     </div>
