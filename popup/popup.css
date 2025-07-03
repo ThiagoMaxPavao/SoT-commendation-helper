@@ -131,3 +131,39 @@ li.highlighted {
   display: flex;
   align-items: center;
 }
+
+#button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+#button-container button,
+#button-container a {
+  flex: 1;
+  text-align: center;
+  background-color: #8c5b2c;
+  color: #f0d79f;
+  border: none;
+  padding: 8px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.15s ease;
+  font-family: 'Cinzel Decorative', cursive, serif;
+  text-shadow: 1px 1px #000;
+}
+
+#button-container button:hover,
+#button-container a:hover {
+  background-color: #a96f3a;
+  transform: translateY(-1px);
+}
+
+#button-container button:active,
+#button-container a:active {
+  background-color: #c57f48;
+  transform: translateY(0);
+}
