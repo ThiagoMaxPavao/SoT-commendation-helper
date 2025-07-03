@@ -101,3 +101,16 @@ td.col-description {
   white-space: normal;
   word-break: break-word;
 }
+
+#update-link {
+  color: #34da9e;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+#update-link:hover,
+#update-link:focus {
+  color: #24976e;
+  text-decoration: none;
+}
