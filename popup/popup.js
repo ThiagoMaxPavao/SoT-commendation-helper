@@ -270,3 +270,8 @@ function goToCommendation(commendation, matchKey = null) {
     }
   });
 }
+
+document.getElementById("openExplorer").addEventListener("click", () => {
+  const explorerURL = chrome.runtime.getURL("explorer/index.html");
+  chrome.tabs.create({ url: explorerURL });
+});

@@ -23,6 +23,7 @@
         "content/global_utils.js",
         "content/build_index.js",
         "content/build_campaign_title_map.js",
+        "content/build_processed_reputation.js",
         "content/inject_rewards.js",
         "content/navigation.js",
         "content/translation_manager.js"
